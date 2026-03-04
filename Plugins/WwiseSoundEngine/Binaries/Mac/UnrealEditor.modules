@@ -1,9 +1,0 @@
-{
-	"BuildId": "43139311",
-	"Modules": 
-	{
-		"WwiseAuthoring": "UnrealEditor-WwiseAuthoring.dylib",
-		"WwiseLowLevelUtils": "UnrealEditor-WwiseLowLevelUtils.dylib",
-		"WwiseSoundEngine": "UnrealEditor-WwiseSoundEngine.dylib"
-	}
-}
