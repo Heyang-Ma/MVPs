@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2D5F32B9-3BAA-4C78-B745-51CE4AB2E4FD}" SchemaVersion="133">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{2D5F32B9-3BAA-4C78-B745-51CE4AB2E4FD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2D5F32B9-3BAA-4C78-B745-51CE4AB2E4FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Ambience" ID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}"/>
+				<Event Name="Footsteps" ID="{154FAD4F-B779-4F14-8470-3861C7285557}">
+					<ChildrenList>
+						<Action Name="" ID="{C39C96E8-82C0-47BE-9B32-612FE4F0C47D}" ShortID="677443455">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Metal" ID="{3FFD1BE0-7C60-450C-BCD5-4298142BA234}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
