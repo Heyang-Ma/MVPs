@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="2660190379" Type="Event" GUID="{6BA0B46B-E235-40FA-8A71-CAF70DF95245}" Language="SFX" Hash="{ACB509BD-D2ED-CDB8-8C05-8D92B5424090}">
+			<ObjectPath>Lever_pull</ObjectPath>
+			<ShortName>Lever_pull</ShortName>
+			<Path>Event/Lever_pull.bnk</Path>
+			<Media>
+				<File Id="1016758473" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Lever pull.wav</ShortName>
+					<Path>Media/1016758473.wem</Path>
+					<CachePath>F4/{F4D9FD32-FF8A-A426-6ADB-776EAE5A10AD}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2660190379" Name="Lever_pull" ObjectPath="\Events\Default Work Unit\Lever_pull" GUID="{6BA0B46B-E235-40FA-8A71-CAF70DF95245}" DurationType="OneShot" DurationMin="12.861996" DurationMax="12.861996">
+					<MediaRefs>
+						<MediaRef Id="1016758473"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B63AC887-8686-78F8-5227-E6E59B3CAF09}</FileHash>
+</SoundBanksInfo>

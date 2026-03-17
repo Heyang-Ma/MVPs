@@ -3,7 +3,7 @@
 	<Containers>
 		<WorkUnit Name="Default Work Unit" ID="{919E093A-8924-497B-ACE4-521AB924883A}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="Metal" ID="{3FFD1BE0-7C60-450C-BCD5-4298142BA234}" ShortID="167580480">
+				<RandomSequenceContainer Name="Metal_Footsteps" ID="{3FFD1BE0-7C60-450C-BCD5-4298142BA234}" ShortID="167580480">
 					<PropertyList>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
@@ -27,6 +27,184 @@
 							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Grate footsteps-01" ID="{29C994A8-7610-4CBD-AFA6-3CFECD5C3EB3}" ShortID="165289696">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grate footsteps-01" ID="{237840C3-0067-4019-8C2B-88FF92438E6E}">
+									<Language>SFX</Language>
+									<AudioFile>Grate footsteps-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="740638957"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grate footsteps-01" ID="{237840C3-0067-4019-8C2B-88FF92438E6E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grate footsteps-02" ID="{13939E4D-0FD7-44AE-9275-77653E012456}" ShortID="578324478">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grate footsteps-02" ID="{81BC106E-5A6A-4B5B-BD1D-0F3546E5A6E5}">
+									<Language>SFX</Language>
+									<AudioFile>Grate footsteps-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="701819255"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grate footsteps-02" ID="{81BC106E-5A6A-4B5B-BD1D-0F3546E5A6E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grate footsteps-03" ID="{21B13D98-A0B9-46D3-9A7C-5E36CB2D6D2B}" ShortID="1060339543">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grate footsteps-03" ID="{5CFE7497-E01E-4C02-AAE5-8D267CC23A4A}">
+									<Language>SFX</Language>
+									<AudioFile>Grate footsteps-03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="865529766"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grate footsteps-03" ID="{5CFE7497-E01E-4C02-AAE5-8D267CC23A4A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grate footsteps-04" ID="{B7BCF291-A3B4-4A12-81AD-CC4636A26DD3}" ShortID="44861667">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grate footsteps-04" ID="{222840A3-04E1-4658-84F2-6CD8BAF70BFA}">
+									<Language>SFX</Language>
+									<AudioFile>Grate footsteps-04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="75792981"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grate footsteps-04" ID="{222840A3-04E1-4658-84F2-6CD8BAF70BFA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grate footsteps-05" ID="{AA34DBF1-FCF1-465A-AB82-68A7BC804F87}" ShortID="681716154">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grate footsteps-05" ID="{E5A3E986-3FC1-4F35-979A-2D4BCD5A80C1}">
+									<Language>SFX</Language>
+									<AudioFile>Grate footsteps-05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="475146295"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grate footsteps-05" ID="{E5A3E986-3FC1-4F35-979A-2D4BCD5A80C1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grate footsteps-06" ID="{7CF671FA-64CE-4488-8E1E-10DEC50F59B2}" ShortID="163276394">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grate footsteps-06" ID="{5722A135-CFA7-454A-885F-2820CE5FD5B8}">
+									<Language>SFX</Language>
+									<AudioFile>Grate footsteps-06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="286563397"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grate footsteps-06" ID="{5722A135-CFA7-454A-885F-2820CE5FD5B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grate footsteps-07" ID="{11E0996B-5DC9-4A2D-B714-A950B7FE07D8}" ShortID="295730051">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grate footsteps-07" ID="{D552E02B-D631-476B-B515-F8460E78B712}">
+									<Language>SFX</Language>
+									<AudioFile>Grate footsteps-07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="799552893"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grate footsteps-07" ID="{D552E02B-D631-476B-B515-F8460E78B712}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Grate footsteps-08" ID="{71A4DFCA-6126-4F60-B785-002E500A8391}" ShortID="243553393">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Grate footsteps-08" ID="{3AACBF33-DFF4-449D-82CB-2D3695658C9A}">
+									<Language>SFX</Language>
+									<AudioFile>Grate footsteps-08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="959801074"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Grate footsteps-08" ID="{3AACBF33-DFF4-449D-82CB-2D3695658C9A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Wet_footsteps" ID="{BF629D71-C92F-482C-91CE-D7BA79B1CF2E}" ShortID="610700497">
 					<ReferenceList>
@@ -38,7 +216,7 @@
 						</Reference>
 					</ReferenceList>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Grate_footsteps" ID="{82BF4052-F63C-4EB4-94E9-1EB362AA0652}" ShortID="823709907">
+				<RandomSequenceContainer Name="Taser" ID="{0E3CE2AB-097A-4FE0-8596-8AF753207622}" ShortID="513279606">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
@@ -47,6 +225,144 @@
 							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="taser zap" ID="{30794E3F-E85F-446F-9189-60B15C2CC8EC}" ShortID="864963511">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="taser zap" ID="{2E491B58-7729-460E-8E80-52E7043FA467}">
+									<Language>SFX</Language>
+									<AudioFile>taser zap.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="249699858"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="taser zap" ID="{2E491B58-7729-460E-8E80-52E7043FA467}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Lever" ID="{5956726A-F036-4C72-A06F-11B21E66805F}" ShortID="510990160">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Lever pull" ID="{2A6DF056-6CAA-4E60-A65C-E6BFBDFE52B7}" ShortID="589022500">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lever pull" ID="{9B9879AD-BD57-4E2F-A8E7-363204289B65}">
+									<Language>SFX</Language>
+									<AudioFile>Lever pull.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1016758473"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lever pull" ID="{9B9879AD-BD57-4E2F-A8E7-363204289B65}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Door" ID="{0AD7A4F1-F450-4F2A-86BC-772A48D5A4C6}" ShortID="42344324">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Door_Opens" ID="{941006EA-763E-4AAC-9EEA-842A4EAC450F}" ShortID="705444112">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door_Opens" ID="{5F69AAD4-BDF5-4FA9-92FB-90E7BE87D6C7}">
+									<Language>SFX</Language>
+									<AudioFile>Door_Opens.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="148952108"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door_Opens" ID="{5F69AAD4-BDF5-4FA9-92FB-90E7BE87D6C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Ambience" ID="{54E06DBE-D777-4354-B54A-F4A0A92F8E29}" ShortID="253274249">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{80A82AF1-79D7-4FDB-88A4-72921E0FA38C}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Ship ambience" ID="{70239FCF-CB2E-4359-8EAF-3BCD686537A6}" ShortID="212805683">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ship ambience" ID="{08E6D708-7A35-4786-9B02-2034437B1AB9}">
+									<Language>SFX</Language>
+									<AudioFile>Ship ambience.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="748392796"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ship ambience" ID="{08E6D708-7A35-4786-9B02-2034437B1AB9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1302336914",
+    "Type": "Event",
+    "GUID": "{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}",
+    "Language": "SFX",
+    "Hash": "{1FB1437E-4282-F3BE-7610-306A165C2197}",
+    "ObjectPath": "Taser_Zap",
+    "ShortName": "Taser_Zap",
+    "Path": "Event/Taser_Zap.bnk",
+    "Media": [
+     {
+      "Id": "249699858",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "taser zap.wav",
+      "Path": "Media/249699858.wem",
+      "CachePath": "B4/{B48A2E14-9BD2-AA56-9F07-AD47E2B0B801}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1302336914",
+      "Name": "Taser_Zap",
+      "ObjectPath": "\\Events\\Default Work Unit\\Taser_Zap",
+      "GUID": "{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}",
+      "DurationType": "OneShot",
+      "DurationMin": "12.861996",
+      "DurationMax": "12.861996",
+      "MediaRefs": [
+       {
+        "Id": "249699858"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9AC49C9C-F1D1-0F08-3AC9-442E2A0D2832}"
+ }
+}

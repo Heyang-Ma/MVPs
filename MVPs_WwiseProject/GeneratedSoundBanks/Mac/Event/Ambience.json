@@ -10,24 +10,39 @@
     "Type": "Event",
     "GUID": "{2251EB11-1E57-456F-B48F-DA5AFFE10496}",
     "Language": "SFX",
-    "Hash": "{8211B25E-9F00-91BC-4384-4825C38C59CF}",
+    "Hash": "{CE705D7E-F861-9E2D-46AF-09C1A161917F}",
     "ObjectPath": "Ambience",
     "ShortName": "Ambience",
     "Path": "Event/Ambience.bnk",
+    "Media": [
+     {
+      "Id": "748392796",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ship ambience.wav",
+      "Path": "Media/748392796.wem",
+      "CachePath": "BB/{BB5308CF-7709-BC5A-8012-2645771C6BAE}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "85412153",
       "Name": "Ambience",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience",
       "GUID": "{2251EB11-1E57-456F-B48F-DA5AFFE10496}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "159.9312",
+      "DurationMax": "159.9312",
+      "MediaRefs": [
+       {
+        "Id": "748392796"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{443D604D-F400-EBFD-63E5-F328DF26F48F}"
+  "FileHash": "{5CF590BD-1F22-F219-1041-6AD28F8D171B}"
  }
 }

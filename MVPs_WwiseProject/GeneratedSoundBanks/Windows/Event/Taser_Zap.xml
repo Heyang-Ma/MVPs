@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1302336914" Type="Event" GUID="{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}" Language="SFX" Hash="{1FB1437E-4282-F3BE-7610-306A165C2197}">
+			<ObjectPath>Taser_Zap</ObjectPath>
+			<ShortName>Taser_Zap</ShortName>
+			<Path>Event/Taser_Zap.bnk</Path>
+			<Media>
+				<File Id="249699858" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>taser zap.wav</ShortName>
+					<Path>Media/249699858.wem</Path>
+					<CachePath>B4/{B48A2E14-9BD2-AA56-9F07-AD47E2B0B801}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1302336914" Name="Taser_Zap" ObjectPath="\Events\Default Work Unit\Taser_Zap" GUID="{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}" DurationType="OneShot" DurationMin="12.861996" DurationMax="12.861996">
+					<MediaRefs>
+						<MediaRef Id="249699858"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B79A8059-4D63-1650-D1FD-FF2754018F43}</FileHash>
+</SoundBanksInfo>

@@ -41,9 +41,18 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{E53B169A-48FC-4C80-A3DD-3ED7707AB0DF}",
+      "Switches": []
+     }
     ]
    }
   ],
-  "FileHash": "{C0186052-653F-85F2-6B76-A1F25FDB3ED4}"
+  "FileHash": "{837547CA-4C74-5691-5524-D6378B7F288B}"
  }
 }

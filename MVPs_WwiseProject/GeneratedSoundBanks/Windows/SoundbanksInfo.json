@@ -18,20 +18,72 @@
     "Type": "Event",
     "GUID": "{2251EB11-1E57-456F-B48F-DA5AFFE10496}",
     "Language": "SFX",
-    "Hash": "{8211B25E-9F00-91BC-4384-4825C38C59CF}",
+    "Hash": "{CE705D7E-F861-9E2D-46AF-09C1A161917F}",
     "ObjectPath": "Ambience",
     "ShortName": "Ambience",
     "Path": "Event/Ambience.bnk",
+    "Media": [
+     {
+      "Id": "748392796",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Ship ambience.wav",
+      "Path": "Media/748392796.wem",
+      "CachePath": "BB/{BB5308CF-7709-BC5A-8012-2645771C6BAE}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "85412153",
       "Name": "Ambience",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience",
       "GUID": "{2251EB11-1E57-456F-B48F-DA5AFFE10496}",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "159.9312",
+      "DurationMax": "159.9312",
+      "MediaRefs": [
+       {
+        "Id": "748392796"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1302336914",
+    "Type": "Event",
+    "GUID": "{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}",
+    "Language": "SFX",
+    "Hash": "{1FB1437E-4282-F3BE-7610-306A165C2197}",
+    "ObjectPath": "Taser_Zap",
+    "ShortName": "Taser_Zap",
+    "Path": "Event/Taser_Zap.bnk",
+    "Media": [
+     {
+      "Id": "249699858",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "taser zap.wav",
+      "Path": "Media/249699858.wem",
+      "CachePath": "B4/{B48A2E14-9BD2-AA56-9F07-AD47E2B0B801}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1302336914",
+      "Name": "Taser_Zap",
+      "ObjectPath": "\\Events\\Default Work Unit\\Taser_Zap",
+      "GUID": "{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}",
+      "DurationType": "OneShot",
+      "DurationMin": "12.861996",
+      "DurationMax": "12.861996",
+      "MediaRefs": [
+       {
+        "Id": "249699858"
+       }
+      ]
      }
     ]
    },
@@ -71,6 +123,15 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{E53B169A-48FC-4C80-A3DD-3ED7707AB0DF}",
+      "Switches": []
+     }
     ]
    },
    {
@@ -78,10 +139,84 @@
     "Type": "Event",
     "GUID": "{154FAD4F-B779-4F14-8470-3861C7285557}",
     "Language": "SFX",
-    "Hash": "{124E411B-1C11-B30B-7045-2E21D0C0B223}",
+    "Hash": "{7779C17A-7E9B-66EE-E912-835D9FB00192}",
     "ObjectPath": "Footsteps",
     "ShortName": "Footsteps",
     "Path": "Event/Footsteps.bnk",
+    "Media": [
+     {
+      "Id": "75792981",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-04.wav",
+      "Path": "Media/75792981.wem",
+      "CachePath": "61/{6181D18F-7113-5A21-07B4-D13353D23D3D}.wem"
+     },
+     {
+      "Id": "286563397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-06.wav",
+      "Path": "Media/286563397.wem",
+      "CachePath": "02/{024D811A-C430-959D-2A2A-029357E1CEFC}.wem"
+     },
+     {
+      "Id": "475146295",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-05.wav",
+      "Path": "Media/475146295.wem",
+      "CachePath": "19/{190F019E-FA30-4ED4-1090-D24E1E388C4C}.wem"
+     },
+     {
+      "Id": "701819255",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-02.wav",
+      "Path": "Media/701819255.wem",
+      "CachePath": "CA/{CA090BEE-6629-B822-4756-8D08ADFFB893}.wem"
+     },
+     {
+      "Id": "740638957",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-01.wav",
+      "Path": "Media/740638957.wem",
+      "CachePath": "07/{07FA50E8-D5BC-95CE-282E-418475A6D27E}.wem"
+     },
+     {
+      "Id": "799552893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-07.wav",
+      "Path": "Media/799552893.wem",
+      "CachePath": "FF/{FFBD85A2-57C6-7718-C092-FAC169A8EFBB}.wem"
+     },
+     {
+      "Id": "865529766",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-03.wav",
+      "Path": "Media/865529766.wem",
+      "CachePath": "10/{100C5FE1-965F-9BC1-7888-B3A474CC1176}.wem"
+     },
+     {
+      "Id": "959801074",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-08.wav",
+      "Path": "Media/959801074.wem",
+      "CachePath": "2A/{2A69E1E3-21DC-023F-BDE6-3B4BF8522A50}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "2385628198",
@@ -89,12 +224,75 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
       "GUID": "{154FAD4F-B779-4F14-8470-3861C7285557}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.70026034",
+      "DurationMax": "0.93473536",
+      "MediaRefs": [
+       {
+        "Id": "75792981"
+       },
+       {
+        "Id": "286563397"
+       },
+       {
+        "Id": "475146295"
+       },
+       {
+        "Id": "701819255"
+       },
+       {
+        "Id": "740638957"
+       },
+       {
+        "Id": "799552893"
+       },
+       {
+        "Id": "865529766"
+       },
+       {
+        "Id": "959801074"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2660190379",
+    "Type": "Event",
+    "GUID": "{6BA0B46B-E235-40FA-8A71-CAF70DF95245}",
+    "Language": "SFX",
+    "Hash": "{ACB509BD-D2ED-CDB8-8C05-8D92B5424090}",
+    "ObjectPath": "Lever_pull",
+    "ShortName": "Lever_pull",
+    "Path": "Event/Lever_pull.bnk",
+    "Media": [
+     {
+      "Id": "1016758473",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Lever pull.wav",
+      "Path": "Media/1016758473.wem",
+      "CachePath": "F4/{F4D9FD32-FF8A-A426-6ADB-776EAE5A10AD}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2660190379",
+      "Name": "Lever_pull",
+      "ObjectPath": "\\Events\\Default Work Unit\\Lever_pull",
+      "GUID": "{6BA0B46B-E235-40FA-8A71-CAF70DF95245}",
+      "DurationType": "OneShot",
+      "DurationMin": "12.861996",
+      "DurationMax": "12.861996",
+      "MediaRefs": [
+       {
+        "Id": "1016758473"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{B4A29CFE-91A5-ECD0-071F-37125C4FE4AC}"
+  "FileHash": "{1D54481E-913B-C312-3018-38F2F4C7DE3F}"
  }
 }

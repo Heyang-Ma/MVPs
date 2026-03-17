@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="Event" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" Language="SFX" Hash="{8211B25E-9F00-91BC-4384-4825C38C59CF}">
+		<SoundBank Id="85412153" Type="Event" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" Language="SFX" Hash="{CE705D7E-F861-9E2D-46AF-09C1A161917F}">
 			<ObjectPath>Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Event/Ambience.bnk</Path>
+			<Media>
+				<File Id="748392796" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Ship ambience.wav</ShortName>
+					<Path>Media/748392796.wem</Path>
+					<CachePath>BB/{BB5308CF-7709-BC5A-8012-2645771C6BAE}.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" DurationType="OneShot" DurationMin="159.9312" DurationMax="159.9312">
+					<MediaRefs>
+						<MediaRef Id="748392796"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{43A480CB-3053-8D0C-FEA9-48E03B78DC03}</FileHash>
+	<FileHash>{770CE542-1DFB-3476-FD87-242039A7029D}</FileHash>
 </SoundBanksInfo>

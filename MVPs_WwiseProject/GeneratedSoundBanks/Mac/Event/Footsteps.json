@@ -10,10 +10,84 @@
     "Type": "Event",
     "GUID": "{154FAD4F-B779-4F14-8470-3861C7285557}",
     "Language": "SFX",
-    "Hash": "{124E411B-1C11-B30B-7045-2E21D0C0B223}",
+    "Hash": "{7779C17A-7E9B-66EE-E912-835D9FB00192}",
     "ObjectPath": "Footsteps",
     "ShortName": "Footsteps",
     "Path": "Event/Footsteps.bnk",
+    "Media": [
+     {
+      "Id": "75792981",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-04.wav",
+      "Path": "Media/75792981.wem",
+      "CachePath": "61/{6181D18F-7113-5A21-07B4-D13353D23D3D}.wem"
+     },
+     {
+      "Id": "286563397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-06.wav",
+      "Path": "Media/286563397.wem",
+      "CachePath": "02/{024D811A-C430-959D-2A2A-029357E1CEFC}.wem"
+     },
+     {
+      "Id": "475146295",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-05.wav",
+      "Path": "Media/475146295.wem",
+      "CachePath": "19/{190F019E-FA30-4ED4-1090-D24E1E388C4C}.wem"
+     },
+     {
+      "Id": "701819255",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-02.wav",
+      "Path": "Media/701819255.wem",
+      "CachePath": "CA/{CA090BEE-6629-B822-4756-8D08ADFFB893}.wem"
+     },
+     {
+      "Id": "740638957",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-01.wav",
+      "Path": "Media/740638957.wem",
+      "CachePath": "07/{07FA50E8-D5BC-95CE-282E-418475A6D27E}.wem"
+     },
+     {
+      "Id": "799552893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-07.wav",
+      "Path": "Media/799552893.wem",
+      "CachePath": "FF/{FFBD85A2-57C6-7718-C092-FAC169A8EFBB}.wem"
+     },
+     {
+      "Id": "865529766",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-03.wav",
+      "Path": "Media/865529766.wem",
+      "CachePath": "10/{100C5FE1-965F-9BC1-7888-B3A474CC1176}.wem"
+     },
+     {
+      "Id": "959801074",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Grate footsteps-08.wav",
+      "Path": "Media/959801074.wem",
+      "CachePath": "2A/{2A69E1E3-21DC-023F-BDE6-3B4BF8522A50}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "2385628198",
@@ -21,12 +95,38 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
       "GUID": "{154FAD4F-B779-4F14-8470-3861C7285557}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.70026034",
+      "DurationMax": "0.93473536",
+      "MediaRefs": [
+       {
+        "Id": "75792981"
+       },
+       {
+        "Id": "286563397"
+       },
+       {
+        "Id": "475146295"
+       },
+       {
+        "Id": "701819255"
+       },
+       {
+        "Id": "740638957"
+       },
+       {
+        "Id": "799552893"
+       },
+       {
+        "Id": "865529766"
+       },
+       {
+        "Id": "959801074"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{A9BDA095-4264-4D23-B211-63A9A4CAD7DF}"
+  "FileHash": "{A9FF4FC8-1759-DEA1-0BDA-055E8B646552}"
  }
 }

@@ -3,13 +3,52 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{2D5F32B9-3BAA-4C78-B745-51CE4AB2E4FD}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Ambience" ID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}"/>
+				<Event Name="Ambience" ID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}">
+					<ChildrenList>
+						<Action Name="" ID="{39942408-CE54-482B-9498-45B36B1E82E9}" ShortID="931194326">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{54E06DBE-D777-4354-B54A-F4A0A92F8E29}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="Footsteps" ID="{154FAD4F-B779-4F14-8470-3861C7285557}">
+					<PropertyList>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{C39C96E8-82C0-47BE-9B32-612FE4F0C47D}" ShortID="677443455">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Metal" ID="{3FFD1BE0-7C60-450C-BCD5-4298142BA234}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
+									<ObjectRef Name="Metal_Footsteps" ID="{3FFD1BE0-7C60-450C-BCD5-4298142BA234}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Taser_Zap" ID="{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}">
+					<ChildrenList>
+						<Action Name="" ID="{0E5C4D08-742F-4EF0-923C-8D12B7C6CC94}" ShortID="763514949">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Taser" ID="{0E3CE2AB-097A-4FE0-8596-8AF753207622}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lever_pull" ID="{6BA0B46B-E235-40FA-8A71-CAF70DF95245}">
+					<ChildrenList>
+						<Action Name="" ID="{427BF55E-F354-47B9-BD1E-4A352D4FB96E}" ShortID="931325529">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lever" ID="{5956726A-F036-4C72-A06F-11B21E66805F}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

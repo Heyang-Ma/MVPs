@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1302336914	Taser_Zap			\Default Work Unit\Taser_Zap	
+

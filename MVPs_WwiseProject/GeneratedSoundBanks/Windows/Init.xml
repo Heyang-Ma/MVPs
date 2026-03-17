@@ -14,7 +14,12 @@
 			<Busses>
 				<Bus Id="2246998526" Name="Main Audio Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps" GUID="{E53B169A-48FC-4C80-A3DD-3ED7707AB0DF}">
+					<Switches/>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{119A129C-C063-730A-5D4B-BCD93E48A9CF}</FileHash>
+	<FileHash>{BDB645D8-FEC1-7777-649B-6C0DB623648F}</FileHash>
 </SoundBanksInfo>
