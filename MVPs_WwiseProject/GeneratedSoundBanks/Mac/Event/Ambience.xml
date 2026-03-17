@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="Event" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" Language="SFX" Hash="{CE705D7E-F861-9E2D-46AF-09C1A161917F}">
+		<SoundBank Id="85412153" Type="Event" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" Language="SFX" Hash="{69A9F9C9-EA96-9AD6-32B9-44B3745C64DE}">
 			<ObjectPath>Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Event/Ambience.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1EF08D6C-555E-7B3C-301D-950C99C030B8}</FileHash>
+	<FileHash>{1F46961E-46AF-D2B5-FA02-BC4F4302E63A}</FileHash>
 </SoundBanksInfo>

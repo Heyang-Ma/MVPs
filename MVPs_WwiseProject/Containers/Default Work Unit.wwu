@@ -321,9 +321,6 @@
 				<RandomSequenceContainer Name="Ambience" ID="{54E06DBE-D777-4354-B54A-F4A0A92F8E29}" ShortID="253274249">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-14</Value>
-							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{80A82AF1-79D7-4FDB-88A4-72921E0FA38C}"/>

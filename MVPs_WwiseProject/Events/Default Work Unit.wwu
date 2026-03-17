@@ -15,13 +15,6 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Footsteps" ID="{154FAD4F-B779-4F14-8470-3861C7285557}">
-					<PropertyList>
-						<Property Name="InstanceLimit" Type="int16">
-							<ValueList>
-								<Value>7</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{C39C96E8-82C0-47BE-9B32-612FE4F0C47D}" ShortID="677443455">
 							<ReferenceList>

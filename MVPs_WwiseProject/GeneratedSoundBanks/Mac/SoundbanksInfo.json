@@ -18,7 +18,7 @@
     "Type": "Event",
     "GUID": "{2251EB11-1E57-456F-B48F-DA5AFFE10496}",
     "Language": "SFX",
-    "Hash": "{CE705D7E-F861-9E2D-46AF-09C1A161917F}",
+    "Hash": "{69A9F9C9-EA96-9AD6-32B9-44B3745C64DE}",
     "ObjectPath": "Ambience",
     "ShortName": "Ambience",
     "Path": "Event/Ambience.bnk",
@@ -139,7 +139,7 @@
     "Type": "Event",
     "GUID": "{154FAD4F-B779-4F14-8470-3861C7285557}",
     "Language": "SFX",
-    "Hash": "{7779C17A-7E9B-66EE-E912-835D9FB00192}",
+    "Hash": "{070D9286-3E2B-A1E7-B7ED-3F6D543C8994}",
     "ObjectPath": "Footsteps",
     "ShortName": "Footsteps",
     "Path": "Event/Footsteps.bnk",
@@ -293,6 +293,6 @@
     ]
    }
   ],
-  "FileHash": "{8948E95E-55B8-C4A6-EE77-DCC1D67D303D}"
+  "FileHash": "{ED64E0E5-88E1-86F0-0346-2BAECBD5C00C}"
  }
 }
