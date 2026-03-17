@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{CDE9AC3D-2B42-1217-02C1-D64576EB9AF6}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{18839657-443E-C068-C036-A5F953EB4DA9}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="702543456" Name="Tunnel1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Tunnel1" GUID="{CC44B890-9865-4157-965F-86FED27BC4C6}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Devices\Default Work Unit\No_Output" GUID="{35A667E3-85BB-4053-94AA-7006955D3154}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Devices\Default Work Unit\System" GUID="{35130133-1E03-4BAB-98C4-9938DAB3E52A}" LibName="System" LibId="11403271"/>
@@ -14,12 +17,25 @@
 			<Busses>
 				<Bus Id="2246998526" Name="Main Audio Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="631672227" Name="SpaceshipReverb" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SpaceshipReverb" GUID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="702543456"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<SwitchGroups>
 				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps" GUID="{E53B169A-48FC-4C80-A3DD-3ED7707AB0DF}">
-					<Switches/>
+					<Switches>
+						<Switch Id="1181096339" Name="Wet" ObjectPath="\Switches\Default Work Unit\Footsteps\Wet" GUID="{76EAEA1F-F11C-4F21-BCAD-5E6D28B9E8B7}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Footsteps\Metal" GUID="{2CFE366F-F7E6-4098-80BA-18EADAFFAA8F}"/>
+						<Switch Id="4164757166" Name="Grate" ObjectPath="\Switches\Default Work Unit\Footsteps\Grate" GUID="{3D747881-4754-4503-BD78-41179AD9AF00}"/>
+					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BDB645D8-FEC1-7777-649B-6C0DB623648F}</FileHash>
+	<FileHash>{0CE8B0A0-DC51-814E-F7AC-21CD87CDA6DB}</FileHash>
 </SoundBanksInfo>

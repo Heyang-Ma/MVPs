@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{CDE9AC3D-2B42-1217-02C1-D64576EB9AF6}",
+    "Hash": "{18839657-443E-C068-C036-A5F953EB4DA9}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "702543456",
+       "Name": "Tunnel1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Tunnel1",
+       "GUID": "{CC44B890-9865-4157-965F-86FED27BC4C6}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -42,17 +52,51 @@
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
     ],
+    "AuxBusses": [
+     {
+      "Id": "631672227",
+      "Name": "SpaceshipReverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\SpaceshipReverb",
+      "GUID": "{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "702543456"
+        }
+       ]
+      }
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "2385628198",
       "Name": "Footsteps",
       "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
       "GUID": "{E53B169A-48FC-4C80-A3DD-3ED7707AB0DF}",
-      "Switches": []
+      "Switches": [
+       {
+        "Id": "1181096339",
+        "Name": "Wet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Wet",
+        "GUID": "{76EAEA1F-F11C-4F21-BCAD-5E6D28B9E8B7}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Metal",
+        "GUID": "{2CFE366F-F7E6-4098-80BA-18EADAFFAA8F}"
+       },
+       {
+        "Id": "4164757166",
+        "Name": "Grate",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grate",
+        "GUID": "{3D747881-4754-4503-BD78-41179AD9AF00}"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{4025B26D-165C-5C22-EF1E-5954E4FD3B0F}"
+  "FileHash": "{B60DFAA2-E154-0690-9DD2-5A2D30A59AED}"
  }
 }

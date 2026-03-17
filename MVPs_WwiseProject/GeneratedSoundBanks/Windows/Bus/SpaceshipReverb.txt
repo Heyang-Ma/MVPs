@@ -1,0 +1,6 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	631672227	SpaceshipReverb			\Default Work Unit\Main Audio Bus\SpaceshipReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	702543456	Tunnel1	Wwise Matrix Reverb			
+

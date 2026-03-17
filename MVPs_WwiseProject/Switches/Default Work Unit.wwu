@@ -3,7 +3,13 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{D1701EA8-E010-495B-B9E1-A98FE2E64065}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="Footsteps" ID="{E53B169A-48FC-4C80-A3DD-3ED7707AB0DF}"/>
+				<SwitchGroup Name="Footsteps" ID="{E53B169A-48FC-4C80-A3DD-3ED7707AB0DF}">
+					<ChildrenList>
+						<Switch Name="Metal" ID="{2CFE366F-F7E6-4098-80BA-18EADAFFAA8F}"/>
+						<Switch Name="Wet" ID="{76EAEA1F-F11C-4F21-BCAD-5E6D28B9E8B7}"/>
+						<Switch Name="Grate" ID="{3D747881-4754-4503-BD78-41179AD9AF00}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

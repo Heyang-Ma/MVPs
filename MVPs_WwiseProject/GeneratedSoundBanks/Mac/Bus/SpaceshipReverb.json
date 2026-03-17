@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "631672227",
+    "Type": "Bus",
+    "GUID": "{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}",
+    "Language": "SFX",
+    "Hash": "{7553D5EA-F46D-7612-5F01-11BAF2986EB3}",
+    "ObjectPath": "SpaceshipReverb",
+    "ShortName": "SpaceshipReverb",
+    "Path": "Bus/SpaceshipReverb.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "702543456",
+       "Name": "Tunnel1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Tunnel1",
+       "GUID": "{CC44B890-9865-4157-965F-86FED27BC4C6}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "631672227",
+      "Name": "SpaceshipReverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\SpaceshipReverb",
+      "GUID": "{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "702543456"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4D263B4A-3DF1-A269-2363-3A8F5C9D53BD}"
+ }
+}

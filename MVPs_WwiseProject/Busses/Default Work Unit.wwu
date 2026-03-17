@@ -9,6 +9,24 @@
 							<ObjectRef Name="System" ID="{35130133-1E03-4BAB-98C4-9938DAB3E52A}" WorkUnitID="{E15FC1E0-E423-462F-9CE2-08B465E8EC0D}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="SpaceshipReverb" ID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{CF57C94C-7CE1-40E7-BE07-75C284CC6F60}" ShortID="973141444">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+												<ObjectRef Name="Tunnel1" ID="{CC44B890-9865-4157-965F-86FED27BC4C6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

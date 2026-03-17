@@ -19,7 +19,7 @@
 						<Action Name="" ID="{C39C96E8-82C0-47BE-9B32-612FE4F0C47D}" ShortID="677443455">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Metal_Footsteps" ID="{3FFD1BE0-7C60-450C-BCD5-4298142BA234}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
+									<ObjectRef Name="Footsteps" ID="{E1FF61C4-7604-4FDF-B3AA-F1AEA3427384}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

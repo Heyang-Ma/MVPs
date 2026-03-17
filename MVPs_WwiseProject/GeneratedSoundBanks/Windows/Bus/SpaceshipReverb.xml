@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="631672227" Type="Bus" GUID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}" Language="SFX" Hash="{7553D5EA-F46D-7612-5F01-11BAF2986EB3}">
+			<ObjectPath>SpaceshipReverb</ObjectPath>
+			<ShortName>SpaceshipReverb</ShortName>
+			<Path>Bus/SpaceshipReverb.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="702543456" Name="Tunnel1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Tunnel1" GUID="{CC44B890-9865-4157-965F-86FED27BC4C6}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="631672227" Name="SpaceshipReverb" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SpaceshipReverb" GUID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="702543456"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{62F6FA4C-8E95-3E31-7C3B-FE421605320E}</FileHash>
+</SoundBanksInfo>
