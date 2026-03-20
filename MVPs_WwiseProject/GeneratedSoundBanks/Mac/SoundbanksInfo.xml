@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="Event" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" Language="SFX" Hash="{69A9F9C9-EA96-9AD6-32B9-44B3745C64DE}">
+		<SoundBank Id="85412153" Type="Event" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" Language="SFX" Hash="{6A61C7C3-A678-4512-9BE3-35E4CD69FE83}">
 			<ObjectPath>Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Event/Ambience.bnk</Path>
@@ -17,18 +17,18 @@
 				<File Id="748392796" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Ship ambience.wav</ShortName>
 					<Path>Media/748392796.wem</Path>
-					<CachePath>BB/{BB5308CF-7709-BC5A-8012-2645771C6BAE}.wem</CachePath>
+					<CachePath>64/{648D99FD-4D0C-3182-2998-164EADC5A001}.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" DurationType="OneShot" DurationMin="159.9312" DurationMax="159.9312">
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="748392796"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="631672227" Type="Bus" GUID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}" Language="SFX" Hash="{7553D5EA-F46D-7612-5F01-11BAF2986EB3}">
+		<SoundBank Id="631672227" Type="Bus" GUID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}" Language="SFX" Hash="{95A3A325-D665-E80B-01EB-3049DE809C92}">
 			<ObjectPath>SpaceshipReverb</ObjectPath>
 			<ShortName>SpaceshipReverb</ShortName>
 			<Path>Bus/SpaceshipReverb.bnk</Path>
@@ -66,7 +66,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{4E67CC98-79CE-3384-EEB6-FEE6E0603F90}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{154866CD-3001-1114-6F93-CDBEBE77ECAA}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -387,5 +387,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8640CE5C-EDD3-2D62-0795-882967D88D07}</FileHash>
+	<FileHash>{C04FAF71-083E-DDBC-D6B4-5BD973D97F07}</FileHash>
 </SoundBanksInfo>

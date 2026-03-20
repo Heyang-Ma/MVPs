@@ -18,7 +18,7 @@
     "Type": "Event",
     "GUID": "{2251EB11-1E57-456F-B48F-DA5AFFE10496}",
     "Language": "SFX",
-    "Hash": "{69A9F9C9-EA96-9AD6-32B9-44B3745C64DE}",
+    "Hash": "{6A61C7C3-A678-4512-9BE3-35E4CD69FE83}",
     "ObjectPath": "Ambience",
     "ShortName": "Ambience",
     "Path": "Event/Ambience.bnk",
@@ -30,7 +30,7 @@
       "Location": "Loose",
       "ShortName": "Ship ambience.wav",
       "Path": "Media/748392796.wem",
-      "CachePath": "BB/{BB5308CF-7709-BC5A-8012-2645771C6BAE}.wem"
+      "CachePath": "64/{648D99FD-4D0C-3182-2998-164EADC5A001}.wem"
      }
     ],
     "Events": [
@@ -39,9 +39,7 @@
       "Name": "Ambience",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience",
       "GUID": "{2251EB11-1E57-456F-B48F-DA5AFFE10496}",
-      "DurationType": "OneShot",
-      "DurationMin": "159.9312",
-      "DurationMax": "159.9312",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "748392796"
@@ -55,7 +53,7 @@
     "Type": "Bus",
     "GUID": "{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}",
     "Language": "SFX",
-    "Hash": "{7553D5EA-F46D-7612-5F01-11BAF2986EB3}",
+    "Hash": "{95A3A325-D665-E80B-01EB-3049DE809C92}",
     "ObjectPath": "SpaceshipReverb",
     "ShortName": "SpaceshipReverb",
     "Path": "Bus/SpaceshipReverb.bnk",
@@ -129,7 +127,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{18839657-443E-C068-C036-A5F953EB4DA9}",
+    "Hash": "{4C30E942-5800-1C39-E41C-052603145857}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -794,6 +792,6 @@
     ]
    }
   ],
-  "FileHash": "{9B33C769-0252-3E63-F0DB-D88B24E09039}"
+  "FileHash": "{FCDD8D04-9AB7-4A3C-ABBD-E2C46715712E}"
  }
 }
