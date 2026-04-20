@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="2385628198" Type="Event" GUID="{154FAD4F-B779-4F14-8470-3861C7285557}" Language="SFX" Hash="{4DCF3C9E-9F9A-48D2-0DAE-69227934B6C5}">
+		<SoundBank Id="2385628198" Type="Event" GUID="{154FAD4F-B779-4F14-8470-3861C7285557}" Language="SFX" Hash="{0D5E151C-C933-2D99-A55D-C847E81C9EEB}">
 			<ObjectPath>Footsteps</ObjectPath>
 			<ShortName>Footsteps</ShortName>
 			<Path>Event/Footsteps.bnk</Path>
@@ -14,7 +14,7 @@
 				<File Id="75792981" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-04.wav</ShortName>
 					<Path>Media/75792981.wem</Path>
-					<CachePath>61/{6181D18F-7113-5A21-07B4-D13353D23D3D}.wem</CachePath>
+					<CachePath>B1/{B1492CA8-2BFB-4D78-5C22-30DF09142FFB}.wem</CachePath>
 				</File>
 				<File Id="171856599" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-002.wav</ShortName>
@@ -34,7 +34,7 @@
 				<File Id="286563397" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-06.wav</ShortName>
 					<Path>Media/286563397.wem</Path>
-					<CachePath>02/{024D811A-C430-959D-2A2A-029357E1CEFC}.wem</CachePath>
+					<CachePath>2A/{2ABF7D83-54EC-5CBF-E9E9-E355DBAE78B6}.wem</CachePath>
 				</File>
 				<File Id="302454655" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-019.wav</ShortName>
@@ -84,7 +84,7 @@
 				<File Id="475146295" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-05.wav</ShortName>
 					<Path>Media/475146295.wem</Path>
-					<CachePath>19/{190F019E-FA30-4ED4-1090-D24E1E388C4C}.wem</CachePath>
+					<CachePath>A9/{A9E3B9E2-D032-5F58-429B-66D121A7C33D}.wem</CachePath>
 				</File>
 				<File Id="481567546" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-024.wav</ShortName>
@@ -134,7 +134,7 @@
 				<File Id="701819255" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-02.wav</ShortName>
 					<Path>Media/701819255.wem</Path>
-					<CachePath>CA/{CA090BEE-6629-B822-4756-8D08ADFFB893}.wem</CachePath>
+					<CachePath>FF/{FFE17D92-5FDF-8C25-A0B6-5FD47D1CC51B}.wem</CachePath>
 				</File>
 				<File Id="710028379" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-031.wav</ShortName>
@@ -144,7 +144,7 @@
 				<File Id="740638957" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-01.wav</ShortName>
 					<Path>Media/740638957.wem</Path>
-					<CachePath>07/{07FA50E8-D5BC-95CE-282E-418475A6D27E}.wem</CachePath>
+					<CachePath>77/{77CCDD2C-3D09-A499-4722-ADE3F9D33071}.wem</CachePath>
 				</File>
 				<File Id="757547361" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-029.wav</ShortName>
@@ -159,12 +159,12 @@
 				<File Id="799552893" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-07.wav</ShortName>
 					<Path>Media/799552893.wem</Path>
-					<CachePath>FF/{FFBD85A2-57C6-7718-C092-FAC169A8EFBB}.wem</CachePath>
+					<CachePath>CB/{CB701EAE-466B-639B-B957-564C7D701DE4}.wem</CachePath>
 				</File>
 				<File Id="865529766" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-03.wav</ShortName>
 					<Path>Media/865529766.wem</Path>
-					<CachePath>10/{100C5FE1-965F-9BC1-7888-B3A474CC1176}.wem</CachePath>
+					<CachePath>D7/{D74E3A96-159C-4EF5-3AEB-12C96325B793}.wem</CachePath>
 				</File>
 				<File Id="895158241" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-013.wav</ShortName>
@@ -184,7 +184,7 @@
 				<File Id="959801074" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-08.wav</ShortName>
 					<Path>Media/959801074.wem</Path>
-					<CachePath>2A/{2A69E1E3-21DC-023F-BDE6-3B4BF8522A50}.wem</CachePath>
+					<CachePath>87/{878BC6F1-586B-A709-27EA-26AA98ED4BEE}.wem</CachePath>
 				</File>
 				<File Id="1042765643" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-034.wav</ShortName>
@@ -268,5 +268,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1DB33790-881F-E4CB-4674-3F75B8F73B67}</FileHash>
+	<FileHash>{A0FB309A-3610-7511-E2D7-46CB2DACE26E}</FileHash>
 </SoundBanksInfo>

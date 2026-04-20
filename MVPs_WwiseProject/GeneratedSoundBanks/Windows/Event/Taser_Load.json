@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3122905781",
+    "Type": "Event",
+    "GUID": "{56628A9A-04C2-4566-B632-450AF2A845AB}",
+    "Language": "SFX",
+    "Hash": "{EBD4BBDE-A1BE-1AF1-528C-E3AC24D3C0F9}",
+    "ObjectPath": "Taser_Load",
+    "ShortName": "Taser_Load",
+    "Path": "Event/Taser_Load.bnk",
+    "Events": [
+     {
+      "Id": "3122905781",
+      "Name": "Taser_Load",
+      "ObjectPath": "\\Events\\Default Work Unit\\Taser_Load",
+      "GUID": "{56628A9A-04C2-4566-B632-450AF2A845AB}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FF2314FA-31FF-49D8-3BA7-A234FAEE1D56}"
+ }
+}

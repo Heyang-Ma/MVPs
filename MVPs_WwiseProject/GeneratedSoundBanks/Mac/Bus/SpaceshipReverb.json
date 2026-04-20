@@ -10,7 +10,7 @@
     "Type": "Bus",
     "GUID": "{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}",
     "Language": "SFX",
-    "Hash": "{7553D5EA-F46D-7612-5F01-11BAF2986EB3}",
+    "Hash": "{95A3A325-D665-E80B-01EB-3049DE809C92}",
     "ObjectPath": "SpaceshipReverb",
     "ShortName": "SpaceshipReverb",
     "Path": "Bus/SpaceshipReverb.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{4D263B4A-3DF1-A269-2363-3A8F5C9D53BD}"
+  "FileHash": "{5E0D5396-18CD-6CC6-5973-CD6D29A4A643}"
  }
 }

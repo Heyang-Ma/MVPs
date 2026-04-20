@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="631672227" Type="Bus" GUID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}" Language="SFX" Hash="{7553D5EA-F46D-7612-5F01-11BAF2986EB3}">
+		<SoundBank Id="631672227" Type="Bus" GUID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}" Language="SFX" Hash="{95A3A325-D665-E80B-01EB-3049DE809C92}">
 			<ObjectPath>SpaceshipReverb</ObjectPath>
 			<ShortName>SpaceshipReverb</ShortName>
 			<Path>Bus/SpaceshipReverb.bnk</Path>
@@ -21,5 +21,5 @@
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{824F68D9-5B52-596C-43FE-0548AF2A9AE1}</FileHash>
+	<FileHash>{801DA578-30E9-D199-243B-D3536895141A}</FileHash>
 </SoundBanksInfo>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1877847629" Type="Event" GUID="{2E4515A2-6992-47CB-9C30-28C4D4FB52E7}" Language="SFX" Hash="{81AB14B5-0444-BD0C-8909-0304C2B24511}">
+			<ObjectPath>Door</ObjectPath>
+			<ShortName>Door</ShortName>
+			<Path>Event/Door.bnk</Path>
+			<Media>
+				<File Id="148952108" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Door_Opens.wav</ShortName>
+					<Path>Media/148952108.wem</Path>
+					<CachePath>28/{28F0F07B-960C-650C-AA1B-B070A088A39D}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1877847629" Name="Door" ObjectPath="\Events\Default Work Unit\Door" GUID="{2E4515A2-6992-47CB-9C30-28C4D4FB52E7}" DurationType="OneShot" DurationMin="142.4825" DurationMax="179.5167">
+					<MediaRefs>
+						<MediaRef Id="148952108"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{E71E70CA-AB1D-8C8F-EACE-428D08062272}</FileHash>
+</SoundBanksInfo>

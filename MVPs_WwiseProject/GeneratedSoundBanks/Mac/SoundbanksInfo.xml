@@ -28,7 +28,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="631672227" Type="Bus" GUID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}" Language="SFX" Hash="{7553D5EA-F46D-7612-5F01-11BAF2986EB3}">
+		<SoundBank Id="631672227" Type="Bus" GUID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}" Language="SFX" Hash="{95A3A325-D665-E80B-01EB-3049DE809C92}">
 			<ObjectPath>SpaceshipReverb</ObjectPath>
 			<ShortName>SpaceshipReverb</ShortName>
 			<Path>Bus/SpaceshipReverb.bnk</Path>
@@ -47,7 +47,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1302336914" Type="Event" GUID="{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}" Language="SFX" Hash="{1FB1437E-4282-F3BE-7610-306A165C2197}">
+		<SoundBank Id="1302336914" Type="Event" GUID="{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}" Language="SFX" Hash="{D31D5066-A907-E38B-211F-8BBEF94CC3B3}">
 			<ObjectPath>Taser_Zap</ObjectPath>
 			<ShortName>Taser_Zap</ShortName>
 			<Path>Event/Taser_Zap.bnk</Path>
@@ -59,14 +59,14 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1302336914" Name="Taser_Zap" ObjectPath="\Events\Default Work Unit\Taser_Zap" GUID="{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}" DurationType="OneShot" DurationMin="12.861996" DurationMax="12.861996">
+				<Event Id="1302336914" Name="Taser_Zap" ObjectPath="\Events\Default Work Unit\Taser_Zap" GUID="{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}" DurationType="OneShot" DurationMin="10.815606" DurationMax="15.295576">
 					<MediaRefs>
 						<MediaRef Id="249699858"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{4E67CC98-79CE-3384-EEB6-FEE6E0603F90}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{154866CD-3001-1114-6F93-CDBEBE77ECAA}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -101,7 +101,26 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2385628198" Type="Event" GUID="{154FAD4F-B779-4F14-8470-3861C7285557}" Language="SFX" Hash="{4DCF3C9E-9F9A-48D2-0DAE-69227934B6C5}">
+		<SoundBank Id="1877847629" Type="Event" GUID="{2E4515A2-6992-47CB-9C30-28C4D4FB52E7}" Language="SFX" Hash="{81AB14B5-0444-BD0C-8909-0304C2B24511}">
+			<ObjectPath>Door</ObjectPath>
+			<ShortName>Door</ShortName>
+			<Path>Event/Door.bnk</Path>
+			<Media>
+				<File Id="148952108" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Door_Opens.wav</ShortName>
+					<Path>Media/148952108.wem</Path>
+					<CachePath>28/{28F0F07B-960C-650C-AA1B-B070A088A39D}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1877847629" Name="Door" ObjectPath="\Events\Default Work Unit\Door" GUID="{2E4515A2-6992-47CB-9C30-28C4D4FB52E7}" DurationType="OneShot" DurationMin="142.4825" DurationMax="179.5167">
+					<MediaRefs>
+						<MediaRef Id="148952108"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2385628198" Type="Event" GUID="{154FAD4F-B779-4F14-8470-3861C7285557}" Language="SFX" Hash="{0D5E151C-C933-2D99-A55D-C847E81C9EEB}">
 			<ObjectPath>Footsteps</ObjectPath>
 			<ShortName>Footsteps</ShortName>
 			<Path>Event/Footsteps.bnk</Path>
@@ -114,7 +133,7 @@
 				<File Id="75792981" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-04.wav</ShortName>
 					<Path>Media/75792981.wem</Path>
-					<CachePath>61/{6181D18F-7113-5A21-07B4-D13353D23D3D}.wem</CachePath>
+					<CachePath>B1/{B1492CA8-2BFB-4D78-5C22-30DF09142FFB}.wem</CachePath>
 				</File>
 				<File Id="171856599" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-002.wav</ShortName>
@@ -134,7 +153,7 @@
 				<File Id="286563397" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-06.wav</ShortName>
 					<Path>Media/286563397.wem</Path>
-					<CachePath>02/{024D811A-C430-959D-2A2A-029357E1CEFC}.wem</CachePath>
+					<CachePath>2A/{2ABF7D83-54EC-5CBF-E9E9-E355DBAE78B6}.wem</CachePath>
 				</File>
 				<File Id="302454655" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-019.wav</ShortName>
@@ -184,7 +203,7 @@
 				<File Id="475146295" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-05.wav</ShortName>
 					<Path>Media/475146295.wem</Path>
-					<CachePath>19/{190F019E-FA30-4ED4-1090-D24E1E388C4C}.wem</CachePath>
+					<CachePath>A9/{A9E3B9E2-D032-5F58-429B-66D121A7C33D}.wem</CachePath>
 				</File>
 				<File Id="481567546" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-024.wav</ShortName>
@@ -234,7 +253,7 @@
 				<File Id="701819255" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-02.wav</ShortName>
 					<Path>Media/701819255.wem</Path>
-					<CachePath>CA/{CA090BEE-6629-B822-4756-8D08ADFFB893}.wem</CachePath>
+					<CachePath>FF/{FFE17D92-5FDF-8C25-A0B6-5FD47D1CC51B}.wem</CachePath>
 				</File>
 				<File Id="710028379" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-031.wav</ShortName>
@@ -244,7 +263,7 @@
 				<File Id="740638957" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-01.wav</ShortName>
 					<Path>Media/740638957.wem</Path>
-					<CachePath>07/{07FA50E8-D5BC-95CE-282E-418475A6D27E}.wem</CachePath>
+					<CachePath>77/{77CCDD2C-3D09-A499-4722-ADE3F9D33071}.wem</CachePath>
 				</File>
 				<File Id="757547361" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-029.wav</ShortName>
@@ -259,12 +278,12 @@
 				<File Id="799552893" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-07.wav</ShortName>
 					<Path>Media/799552893.wem</Path>
-					<CachePath>FF/{FFBD85A2-57C6-7718-C092-FAC169A8EFBB}.wem</CachePath>
+					<CachePath>CB/{CB701EAE-466B-639B-B957-564C7D701DE4}.wem</CachePath>
 				</File>
 				<File Id="865529766" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-03.wav</ShortName>
 					<Path>Media/865529766.wem</Path>
-					<CachePath>10/{100C5FE1-965F-9BC1-7888-B3A474CC1176}.wem</CachePath>
+					<CachePath>D7/{D74E3A96-159C-4EF5-3AEB-12C96325B793}.wem</CachePath>
 				</File>
 				<File Id="895158241" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-013.wav</ShortName>
@@ -284,7 +303,7 @@
 				<File Id="959801074" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-08.wav</ShortName>
 					<Path>Media/959801074.wem</Path>
-					<CachePath>2A/{2A69E1E3-21DC-023F-BDE6-3B4BF8522A50}.wem</CachePath>
+					<CachePath>87/{878BC6F1-586B-A709-27EA-26AA98ED4BEE}.wem</CachePath>
 				</File>
 				<File Id="1042765643" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-034.wav</ShortName>
@@ -386,6 +405,14 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3122905781" Type="Event" GUID="{56628A9A-04C2-4566-B632-450AF2A845AB}" Language="SFX" Hash="{EBD4BBDE-A1BE-1AF1-528C-E3AC24D3C0F9}">
+			<ObjectPath>Taser_Load</ObjectPath>
+			<ShortName>Taser_Load</ShortName>
+			<Path>Event/Taser_Load.bnk</Path>
+			<Events>
+				<Event Id="3122905781" Name="Taser_Load" ObjectPath="\Events\Default Work Unit\Taser_Load" GUID="{56628A9A-04C2-4566-B632-450AF2A845AB}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8640CE5C-EDD3-2D62-0795-882967D88D07}</FileHash>
+	<FileHash>{833F659F-CD30-53B2-8E32-8291708B91D0}</FileHash>
 </SoundBanksInfo>

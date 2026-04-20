@@ -47,6 +47,18 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Taser_Load" ID="{56628A9A-04C2-4566-B632-450AF2A845AB}"/>
+				<Event Name="Door" ID="{2E4515A2-6992-47CB-9C30-28C4D4FB52E7}">
+					<ChildrenList>
+						<Action Name="" ID="{792CED19-9461-4AA0-903D-2459ECEBBE36}" ShortID="850106448">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door" ID="{0AD7A4F1-F450-4F2A-86BC-772A48D5A4C6}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
