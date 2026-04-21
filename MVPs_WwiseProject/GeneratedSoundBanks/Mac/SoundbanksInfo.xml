@@ -28,6 +28,14 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="334231652" Type="Event" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" Language="SFX" Hash="{3CC43744-5821-8B56-34E1-19CD490AFDBB}">
+			<ObjectPath>Generator</ObjectPath>
+			<ShortName>Generator</ShortName>
+			<Path>Event/Generator.bnk</Path>
+			<Events>
+				<Event Id="334231652" Name="Generator" ObjectPath="\Events\Default Work Unit\Generator" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="631672227" Type="Bus" GUID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}" Language="SFX" Hash="{95A3A325-D665-E80B-01EB-3049DE809C92}">
 			<ObjectPath>SpaceshipReverb</ObjectPath>
 			<ShortName>SpaceshipReverb</ShortName>
@@ -46,6 +54,14 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="741451449" Type="Event" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" Language="SFX" Hash="{B7F1132D-1288-41CC-2B5D-55C80EFE62C6}">
+			<ObjectPath>Jukeboxes</ObjectPath>
+			<ShortName>Jukeboxes</ShortName>
+			<Path>Event/Jukeboxes.bnk</Path>
+			<Events>
+				<Event Id="741451449" Name="Jukeboxes" ObjectPath="\Events\Default Work Unit\Jukeboxes" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="1302336914" Type="Event" GUID="{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}" Language="SFX" Hash="{D31D5066-A907-E38B-211F-8BBEF94CC3B3}">
 			<ObjectPath>Taser_Zap</ObjectPath>
@@ -118,6 +134,14 @@
 						<MediaRef Id="148952108"/>
 					</MediaRefs>
 				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2244307409" Type="Event" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" Language="SFX" Hash="{52FD99EF-5A36-E250-AC86-7AFD0C2F7D23}">
+			<ObjectPath>Alien_Foot</ObjectPath>
+			<ShortName>Alien_Foot</ShortName>
+			<Path>Event/Alien_Foot.bnk</Path>
+			<Events>
+				<Event Id="2244307409" Name="Alien_Foot" ObjectPath="\Events\Default Work Unit\Alien_Foot" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="2385628198" Type="Event" GUID="{154FAD4F-B779-4F14-8470-3861C7285557}" Language="SFX" Hash="{0D5E151C-C933-2D99-A55D-C847E81C9EEB}">
@@ -405,14 +429,22 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3122905781" Type="Event" GUID="{56628A9A-04C2-4566-B632-450AF2A845AB}" Language="SFX" Hash="{EBD4BBDE-A1BE-1AF1-528C-E3AC24D3C0F9}">
+		<SoundBank Id="3122905781" Type="Event" GUID="{56628A9A-04C2-4566-B632-450AF2A845AB}" Language="SFX" Hash="{2A19DBD4-3386-1BB1-9A61-745C5CC94399}">
 			<ObjectPath>Taser_Load</ObjectPath>
 			<ShortName>Taser_Load</ShortName>
 			<Path>Event/Taser_Load.bnk</Path>
 			<Events>
-				<Event Id="3122905781" Name="Taser_Load" ObjectPath="\Events\Default Work Unit\Taser_Load" GUID="{56628A9A-04C2-4566-B632-450AF2A845AB}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3122905781" Name="Taser_Load" ObjectPath="\Events\Default Work Unit\Taser_Load" GUID="{56628A9A-04C2-4566-B632-450AF2A845AB}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3660512661" Type="Event" GUID="{C017A67E-0C43-4B9C-A787-39CCAD215E39}" Language="SFX" Hash="{E222929E-6E74-EC2B-B5C5-B59F33554ADD}">
+			<ObjectPath>Oxygen</ObjectPath>
+			<ShortName>Oxygen</ShortName>
+			<Path>Event/Oxygen.bnk</Path>
+			<Events>
+				<Event Id="3660512661" Name="Oxygen" ObjectPath="\Events\Default Work Unit\Oxygen" GUID="{C017A67E-0C43-4B9C-A787-39CCAD215E39}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{833F659F-CD30-53B2-8E32-8291708B91D0}</FileHash>
+	<FileHash>{471A30A0-B820-9A8A-95CA-03151CD0BFAB}</FileHash>
 </SoundBanksInfo>

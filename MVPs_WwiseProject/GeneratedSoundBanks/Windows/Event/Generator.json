@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "334231652",
+    "Type": "Event",
+    "GUID": "{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}",
+    "Language": "SFX",
+    "Hash": "{3CC43744-5821-8B56-34E1-19CD490AFDBB}",
+    "ObjectPath": "Generator",
+    "ShortName": "Generator",
+    "Path": "Event/Generator.bnk",
+    "Events": [
+     {
+      "Id": "334231652",
+      "Name": "Generator",
+      "ObjectPath": "\\Events\\Default Work Unit\\Generator",
+      "GUID": "{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B8BC5131-2824-479C-6A65-DF30AF33AF6E}"
+ }
+}

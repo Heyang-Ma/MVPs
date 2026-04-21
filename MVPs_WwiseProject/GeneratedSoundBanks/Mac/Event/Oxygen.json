@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3660512661",
+    "Type": "Event",
+    "GUID": "{C017A67E-0C43-4B9C-A787-39CCAD215E39}",
+    "Language": "SFX",
+    "Hash": "{E222929E-6E74-EC2B-B5C5-B59F33554ADD}",
+    "ObjectPath": "Oxygen",
+    "ShortName": "Oxygen",
+    "Path": "Event/Oxygen.bnk",
+    "Events": [
+     {
+      "Id": "3660512661",
+      "Name": "Oxygen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Oxygen",
+      "GUID": "{C017A67E-0C43-4B9C-A787-39CCAD215E39}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C5D78ABF-7E9F-EFFA-03B2-9622B1D935E4}"
+ }
+}

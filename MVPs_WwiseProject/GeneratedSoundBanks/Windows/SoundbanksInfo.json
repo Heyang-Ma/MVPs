@@ -51,6 +51,27 @@
     ]
    },
    {
+    "Id": "334231652",
+    "Type": "Event",
+    "GUID": "{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}",
+    "Language": "SFX",
+    "Hash": "{3CC43744-5821-8B56-34E1-19CD490AFDBB}",
+    "ObjectPath": "Generator",
+    "ShortName": "Generator",
+    "Path": "Event/Generator.bnk",
+    "Events": [
+     {
+      "Id": "334231652",
+      "Name": "Generator",
+      "ObjectPath": "\\Events\\Default Work Unit\\Generator",
+      "GUID": "{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   },
+   {
     "Id": "631672227",
     "Type": "Bus",
     "GUID": "{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}",
@@ -84,6 +105,27 @@
         }
        ]
       }
+     }
+    ]
+   },
+   {
+    "Id": "741451449",
+    "Type": "Event",
+    "GUID": "{FDB6B782-F323-457C-914C-FDFE9D7406B4}",
+    "Language": "SFX",
+    "Hash": "{B7F1132D-1288-41CC-2B5D-55C80EFE62C6}",
+    "ObjectPath": "Jukeboxes",
+    "ShortName": "Jukeboxes",
+    "Path": "Event/Jukeboxes.bnk",
+    "Events": [
+     {
+      "Id": "741451449",
+      "Name": "Jukeboxes",
+      "ObjectPath": "\\Events\\Default Work Unit\\Jukeboxes",
+      "GUID": "{FDB6B782-F323-457C-914C-FDFE9D7406B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    },
@@ -249,6 +291,27 @@
         "Id": "148952108"
        }
       ]
+     }
+    ]
+   },
+   {
+    "Id": "2244307409",
+    "Type": "Event",
+    "GUID": "{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}",
+    "Language": "SFX",
+    "Hash": "{52FD99EF-5A36-E250-AC86-7AFD0C2F7D23}",
+    "ObjectPath": "Alien_Foot",
+    "ShortName": "Alien_Foot",
+    "Path": "Event/Alien_Foot.bnk",
+    "Events": [
+     {
+      "Id": "2244307409",
+      "Name": "Alien_Foot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Alien_Foot",
+      "GUID": "{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    },
@@ -835,7 +898,7 @@
     "Type": "Event",
     "GUID": "{56628A9A-04C2-4566-B632-450AF2A845AB}",
     "Language": "SFX",
-    "Hash": "{EBD4BBDE-A1BE-1AF1-528C-E3AC24D3C0F9}",
+    "Hash": "{2A19DBD4-3386-1BB1-9A61-745C5CC94399}",
     "ObjectPath": "Taser_Load",
     "ShortName": "Taser_Load",
     "Path": "Event/Taser_Load.bnk",
@@ -845,7 +908,27 @@
       "Name": "Taser_Load",
       "ObjectPath": "\\Events\\Default Work Unit\\Taser_Load",
       "GUID": "{56628A9A-04C2-4566-B632-450AF2A845AB}",
-      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   },
+   {
+    "Id": "3660512661",
+    "Type": "Event",
+    "GUID": "{C017A67E-0C43-4B9C-A787-39CCAD215E39}",
+    "Language": "SFX",
+    "Hash": "{E222929E-6E74-EC2B-B5C5-B59F33554ADD}",
+    "ObjectPath": "Oxygen",
+    "ShortName": "Oxygen",
+    "Path": "Event/Oxygen.bnk",
+    "Events": [
+     {
+      "Id": "3660512661",
+      "Name": "Oxygen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Oxygen",
+      "GUID": "{C017A67E-0C43-4B9C-A787-39CCAD215E39}",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
@@ -853,6 +936,6 @@
     ]
    }
   ],
-  "FileHash": "{9521F575-E8DA-7623-06F0-6215885EAECB}"
+  "FileHash": "{D3060042-F075-1305-4AEF-4FA06ED6FCCA}"
  }
 }

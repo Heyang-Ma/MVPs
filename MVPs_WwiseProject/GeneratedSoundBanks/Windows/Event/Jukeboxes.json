@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "741451449",
+    "Type": "Event",
+    "GUID": "{FDB6B782-F323-457C-914C-FDFE9D7406B4}",
+    "Language": "SFX",
+    "Hash": "{B7F1132D-1288-41CC-2B5D-55C80EFE62C6}",
+    "ObjectPath": "Jukeboxes",
+    "ShortName": "Jukeboxes",
+    "Path": "Event/Jukeboxes.bnk",
+    "Events": [
+     {
+      "Id": "741451449",
+      "Name": "Jukeboxes",
+      "ObjectPath": "\\Events\\Default Work Unit\\Jukeboxes",
+      "GUID": "{FDB6B782-F323-457C-914C-FDFE9D7406B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{884301BE-3E7B-D2D5-DF53-09E9A1022721}"
+ }
+}

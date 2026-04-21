@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2244307409",
+    "Type": "Event",
+    "GUID": "{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}",
+    "Language": "SFX",
+    "Hash": "{52FD99EF-5A36-E250-AC86-7AFD0C2F7D23}",
+    "ObjectPath": "Alien_Foot",
+    "ShortName": "Alien_Foot",
+    "Path": "Event/Alien_Foot.bnk",
+    "Events": [
+     {
+      "Id": "2244307409",
+      "Name": "Alien_Foot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Alien_Foot",
+      "GUID": "{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5936FBA5-5488-A896-A2EE-FAB395B1B0D9}"
+ }
+}

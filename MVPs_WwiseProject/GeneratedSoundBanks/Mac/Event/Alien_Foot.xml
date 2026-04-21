@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="2244307409" Type="Event" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" Language="SFX" Hash="{52FD99EF-5A36-E250-AC86-7AFD0C2F7D23}">
+			<ObjectPath>Alien_Foot</ObjectPath>
+			<ShortName>Alien_Foot</ShortName>
+			<Path>Event/Alien_Foot.bnk</Path>
+			<Events>
+				<Event Id="2244307409" Name="Alien_Foot" ObjectPath="\Events\Default Work Unit\Alien_Foot" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{8452E697-07FE-3A99-189E-B916C0C09CA0}</FileHash>
+</SoundBanksInfo>

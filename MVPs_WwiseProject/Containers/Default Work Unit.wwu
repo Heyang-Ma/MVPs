@@ -1221,6 +1221,46 @@
 						</Reference>
 					</ReferenceList>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Oxygen" ID="{A9029D4B-FCE7-4548-B102-631BB62540FD}" ShortID="1058896269">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Generator" ID="{A76CCEBE-A869-413A-95F9-196D11643DF9}" ShortID="402957958">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Alien" ID="{802CA812-E645-4A6B-AA04-7FC5A6B3D9BB}" ShortID="476108508">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Jukeboxes" ID="{A78D063C-54B4-4587-99EC-6E487C08914C}" ShortID="849114328">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</Containers>

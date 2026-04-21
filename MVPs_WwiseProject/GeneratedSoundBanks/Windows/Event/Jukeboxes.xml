@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="741451449" Type="Event" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" Language="SFX" Hash="{B7F1132D-1288-41CC-2B5D-55C80EFE62C6}">
+			<ObjectPath>Jukeboxes</ObjectPath>
+			<ShortName>Jukeboxes</ShortName>
+			<Path>Event/Jukeboxes.bnk</Path>
+			<Events>
+				<Event Id="741451449" Name="Jukeboxes" ObjectPath="\Events\Default Work Unit\Jukeboxes" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0E713A88-9F9E-A5BD-FC8D-70796704E61E}</FileHash>
+</SoundBanksInfo>
