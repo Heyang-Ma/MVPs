@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3660512661" Type="Event" GUID="{C017A67E-0C43-4B9C-A787-39CCAD215E39}" Language="SFX" Hash="{E222929E-6E74-EC2B-B5C5-B59F33554ADD}">
+		<SoundBank Id="3660512661" Type="Event" GUID="{C017A67E-0C43-4B9C-A787-39CCAD215E39}" Language="SFX" Hash="{1E6F93C3-29F4-3F99-48D2-7BA08422F190}">
 			<ObjectPath>Oxygen</ObjectPath>
 			<ShortName>Oxygen</ShortName>
 			<Path>Event/Oxygen.bnk</Path>
+			<Media>
+				<File Id="103837071" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Oxygen fill.wav</ShortName>
+					<Path>Media/103837071.wem</Path>
+					<CachePath>F8/{F8E750EB-6BA0-64BB-3AEC-A79FB975A75B}.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="3660512661" Name="Oxygen" ObjectPath="\Events\Default Work Unit\Oxygen" GUID="{C017A67E-0C43-4B9C-A787-39CCAD215E39}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3660512661" Name="Oxygen" ObjectPath="\Events\Default Work Unit\Oxygen" GUID="{C017A67E-0C43-4B9C-A787-39CCAD215E39}" DurationType="OneShot" DurationMin="2.9745781" DurationMax="2.9745781">
+					<MediaRefs>
+						<MediaRef Id="103837071"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AA11A697-EB77-D6FA-D41D-468DAF9C21E0}</FileHash>
+	<FileHash>{D8188D0D-61D3-C482-4384-164D6CDAFD72}</FileHash>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{154FAD4F-B779-4F14-8470-3861C7285557}",
     "Language": "SFX",
-    "Hash": "{0D5E151C-C933-2D99-A55D-C847E81C9EEB}",
+    "Hash": "{2396C10D-CDB5-6B37-BF4F-0DBA3DAB6531}",
     "ObjectPath": "Footsteps",
     "ShortName": "Footsteps",
     "Path": "Event/Footsteps.bnk",
@@ -43,6 +43,15 @@
       "CachePath": "64/{6434FA49-7FD3-04CF-A25E-148BE5D83D74}.wem"
      },
      {
+      "Id": "179856077",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "metal feet-02.wav",
+      "Path": "Media/179856077.wem",
+      "CachePath": "DB/{DB2ED98C-57C3-BD6E-1071-23AEA1DF26FC}.wem"
+     },
+     {
       "Id": "180126548",
       "Language": "SFX",
       "Streaming": "false",
@@ -59,6 +68,15 @@
       "ShortName": "SqueltchyFootSteps-011.wav",
       "Path": "Media/206213193.wem",
       "CachePath": "4E/{4E6D7471-D725-3AB1-4DFD-8380C9961F77}.wem"
+     },
+     {
+      "Id": "237506503",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "metal feet-06.wav",
+      "Path": "Media/237506503.wem",
+      "CachePath": "76/{76D3DBEB-3D1D-FC5B-9C2B-F4FCA7B31965}.wem"
      },
      {
       "Id": "286563397",
@@ -88,6 +106,15 @@
       "CachePath": "8D/{8D0057FB-AF94-7C3E-84F0-353DEC3E21B4}.wem"
      },
      {
+      "Id": "328106601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "metal feet-05.wav",
+      "Path": "Media/328106601.wem",
+      "CachePath": "C7/{C7A6660D-5592-8C14-353E-810A5ED36277}.wem"
+     },
+     {
       "Id": "331893992",
       "Language": "SFX",
       "Streaming": "false",
@@ -113,6 +140,15 @@
       "ShortName": "SqueltchyFootSteps-028.wav",
       "Path": "Media/345659572.wem",
       "CachePath": "CE/{CE2A5841-7F3D-4F26-75D7-BD3F3ABA9795}.wem"
+     },
+     {
+      "Id": "357679920",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "metal feet-01.wav",
+      "Path": "Media/357679920.wem",
+      "CachePath": "1D/{1D98823A-581A-B591-0024-D59969278E3A}.wem"
      },
      {
       "Id": "367413613",
@@ -295,6 +331,15 @@
       "CachePath": "CB/{CB701EAE-466B-639B-B957-564C7D701DE4}.wem"
      },
      {
+      "Id": "801858656",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "metal feet-03.wav",
+      "Path": "Media/801858656.wem",
+      "CachePath": "F2/{F27FEAF0-7345-55FD-DF88-095E501B303E}.wem"
+     },
+     {
       "Id": "865529766",
       "Language": "SFX",
       "Streaming": "false",
@@ -340,6 +385,15 @@
       "CachePath": "87/{878BC6F1-586B-A709-27EA-26AA98ED4BEE}.wem"
      },
      {
+      "Id": "1034529632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "metal feet-04.wav",
+      "Path": "Media/1034529632.wem",
+      "CachePath": "A1/{A180FA93-CD72-A037-EC3C-68B925175FE0}.wem"
+     },
+     {
       "Id": "1042765643",
       "Language": "SFX",
       "Streaming": "false",
@@ -374,7 +428,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
       "GUID": "{154FAD4F-B779-4F14-8470-3861C7285557}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
+      "DurationMin": "0.11610416",
       "DurationMax": "2",
       "SwitchContainers": [
        {
@@ -513,6 +567,35 @@
           "Id": "959801074"
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "4164757166",
+         "GUID": "{3D747881-4754-4503-BD78-41179AD9AF00}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "179856077"
+         },
+         {
+          "Id": "237506503"
+         },
+         {
+          "Id": "328106601"
+         },
+         {
+          "Id": "357679920"
+         },
+         {
+          "Id": "801858656"
+         },
+         {
+          "Id": "1034529632"
+         }
+        ]
        }
       ]
      }
@@ -547,6 +630,6 @@
     ]
    }
   ],
-  "FileHash": "{9AFF309A-F9C7-E506-44B8-A9B3C3A2D66C}"
+  "FileHash": "{EBE4047A-E31A-CC1A-E02B-E29898A2A828}"
  }
 }

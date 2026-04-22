@@ -10,10 +10,21 @@
     "Type": "Event",
     "GUID": "{FDB6B782-F323-457C-914C-FDFE9D7406B4}",
     "Language": "SFX",
-    "Hash": "{B7F1132D-1288-41CC-2B5D-55C80EFE62C6}",
+    "Hash": "{D7B8B943-3C80-BA6C-FA65-39D2F656328F}",
     "ObjectPath": "Jukeboxes",
     "ShortName": "Jukeboxes",
     "Path": "Event/Jukeboxes.bnk",
+    "Media": [
+     {
+      "Id": "61250036",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Jukebox.wav",
+      "Path": "Media/61250036.wem",
+      "CachePath": "49/{49CA0943-6B02-1030-B662-504C7CD8B1C4}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "741451449",
@@ -21,12 +32,17 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Jukeboxes",
       "GUID": "{FDB6B782-F323-457C-914C-FDFE9D7406B4}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.6377083",
+      "DurationMax": "0.6377083",
+      "MediaRefs": [
+       {
+        "Id": "61250036"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{884301BE-3E7B-D2D5-DF53-09E9A1022721}"
+  "FileHash": "{62FB94D1-4953-05B6-390C-47AF87E81F03}"
  }
 }

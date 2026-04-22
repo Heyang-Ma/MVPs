@@ -10,10 +10,21 @@
     "Type": "Event",
     "GUID": "{C017A67E-0C43-4B9C-A787-39CCAD215E39}",
     "Language": "SFX",
-    "Hash": "{E222929E-6E74-EC2B-B5C5-B59F33554ADD}",
+    "Hash": "{1E6F93C3-29F4-3F99-48D2-7BA08422F190}",
     "ObjectPath": "Oxygen",
     "ShortName": "Oxygen",
     "Path": "Event/Oxygen.bnk",
+    "Media": [
+     {
+      "Id": "103837071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Oxygen fill.wav",
+      "Path": "Media/103837071.wem",
+      "CachePath": "F8/{F8E750EB-6BA0-64BB-3AEC-A79FB975A75B}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "3660512661",
@@ -21,12 +32,17 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Oxygen",
       "GUID": "{C017A67E-0C43-4B9C-A787-39CCAD215E39}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "2.9745781",
+      "DurationMax": "2.9745781",
+      "MediaRefs": [
+       {
+        "Id": "103837071"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{C5D78ABF-7E9F-EFFA-03B2-9622B1D935E4}"
+  "FileHash": "{611BAFDF-9935-91D5-626C-59A8FE935D86}"
  }
 }

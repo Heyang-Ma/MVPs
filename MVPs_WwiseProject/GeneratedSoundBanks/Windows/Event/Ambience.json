@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2251EB11-1E57-456F-B48F-DA5AFFE10496}",
     "Language": "SFX",
-    "Hash": "{69A9F9C9-EA96-9AD6-32B9-44B3745C64DE}",
+    "Hash": "{6A61C7C3-A678-4512-9BE3-35E4CD69FE83}",
     "ObjectPath": "Ambience",
     "ShortName": "Ambience",
     "Path": "Event/Ambience.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Ship ambience.wav",
       "Path": "Media/748392796.wem",
-      "CachePath": "BB/{BB5308CF-7709-BC5A-8012-2645771C6BAE}.wem"
+      "CachePath": "64/{648D99FD-4D0C-3182-2998-164EADC5A001}.wem"
      }
     ],
     "Events": [
@@ -31,9 +31,7 @@
       "Name": "Ambience",
       "ObjectPath": "\\Events\\Default Work Unit\\Ambience",
       "GUID": "{2251EB11-1E57-456F-B48F-DA5AFFE10496}",
-      "DurationType": "OneShot",
-      "DurationMin": "159.9312",
-      "DurationMax": "159.9312",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "748392796"
@@ -43,6 +41,6 @@
     ]
    }
   ],
-  "FileHash": "{1D4FB81D-17EB-84EA-B4FA-9E049BB3CCBE}"
+  "FileHash": "{7745DE97-C168-CA40-CCE3-8605C81FFB91}"
  }
 }

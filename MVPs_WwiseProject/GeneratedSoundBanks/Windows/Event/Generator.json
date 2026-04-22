@@ -10,10 +10,21 @@
     "Type": "Event",
     "GUID": "{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}",
     "Language": "SFX",
-    "Hash": "{3CC43744-5821-8B56-34E1-19CD490AFDBB}",
+    "Hash": "{0E445681-96A6-0657-1E95-C83A35E144C5}",
     "ObjectPath": "Generator",
     "ShortName": "Generator",
     "Path": "Event/Generator.bnk",
+    "Media": [
+     {
+      "Id": "663779800",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Generator.wav",
+      "Path": "Media/663779800.wem",
+      "CachePath": "92/{92C91A03-89C5-5AE0-30B3-01CFB97D9AF4}.wem"
+     }
+    ],
     "Events": [
      {
       "Id": "334231652",
@@ -21,12 +32,17 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Generator",
       "GUID": "{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "52.673187",
+      "DurationMax": "52.673187",
+      "MediaRefs": [
+       {
+        "Id": "663779800"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{B8BC5131-2824-479C-6A65-DF30AF33AF6E}"
+  "FileHash": "{3EA8C4B9-A953-F726-B55D-3E63D5A38C7D}"
  }
 }

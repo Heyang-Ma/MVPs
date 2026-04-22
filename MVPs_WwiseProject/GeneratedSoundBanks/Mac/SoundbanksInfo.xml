@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="Event" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" Language="SFX" Hash="{69A9F9C9-EA96-9AD6-32B9-44B3745C64DE}">
+		<SoundBank Id="85412153" Type="Event" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" Language="SFX" Hash="{6A61C7C3-A678-4512-9BE3-35E4CD69FE83}">
 			<ObjectPath>Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Event/Ambience.bnk</Path>
@@ -17,23 +17,34 @@
 				<File Id="748392796" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Ship ambience.wav</ShortName>
 					<Path>Media/748392796.wem</Path>
-					<CachePath>BB/{BB5308CF-7709-BC5A-8012-2645771C6BAE}.wem</CachePath>
+					<CachePath>64/{648D99FD-4D0C-3182-2998-164EADC5A001}.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" DurationType="OneShot" DurationMin="159.9312" DurationMax="159.9312">
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" GUID="{2251EB11-1E57-456F-B48F-DA5AFFE10496}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="748392796"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="334231652" Type="Event" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" Language="SFX" Hash="{3CC43744-5821-8B56-34E1-19CD490AFDBB}">
+		<SoundBank Id="334231652" Type="Event" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" Language="SFX" Hash="{0E445681-96A6-0657-1E95-C83A35E144C5}">
 			<ObjectPath>Generator</ObjectPath>
 			<ShortName>Generator</ShortName>
 			<Path>Event/Generator.bnk</Path>
+			<Media>
+				<File Id="663779800" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Generator.wav</ShortName>
+					<Path>Media/663779800.wem</Path>
+					<CachePath>92/{92C91A03-89C5-5AE0-30B3-01CFB97D9AF4}.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="334231652" Name="Generator" ObjectPath="\Events\Default Work Unit\Generator" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="334231652" Name="Generator" ObjectPath="\Events\Default Work Unit\Generator" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" DurationType="OneShot" DurationMin="52.673187" DurationMax="52.673187">
+					<MediaRefs>
+						<MediaRef Id="663779800"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="631672227" Type="Bus" GUID="{6F50E9CC-D5F0-4DE7-807C-ADFD94A79183}" Language="SFX" Hash="{95A3A325-D665-E80B-01EB-3049DE809C92}">
@@ -55,12 +66,23 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="741451449" Type="Event" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" Language="SFX" Hash="{B7F1132D-1288-41CC-2B5D-55C80EFE62C6}">
+		<SoundBank Id="741451449" Type="Event" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" Language="SFX" Hash="{D7B8B943-3C80-BA6C-FA65-39D2F656328F}">
 			<ObjectPath>Jukeboxes</ObjectPath>
 			<ShortName>Jukeboxes</ShortName>
 			<Path>Event/Jukeboxes.bnk</Path>
+			<Media>
+				<File Id="61250036" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Jukebox.wav</ShortName>
+					<Path>Media/61250036.wem</Path>
+					<CachePath>49/{49CA0943-6B02-1030-B662-504C7CD8B1C4}.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="741451449" Name="Jukeboxes" ObjectPath="\Events\Default Work Unit\Jukeboxes" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="741451449" Name="Jukeboxes" ObjectPath="\Events\Default Work Unit\Jukeboxes" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" DurationType="OneShot" DurationMin="0.6377083" DurationMax="0.6377083">
+					<MediaRefs>
+						<MediaRef Id="61250036"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1302336914" Type="Event" GUID="{7FE31B99-4B56-4541-B1F0-01BC5754ACCA}" Language="SFX" Hash="{D31D5066-A907-E38B-211F-8BBEF94CC3B3}">
@@ -136,15 +158,62 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2244307409" Type="Event" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" Language="SFX" Hash="{52FD99EF-5A36-E250-AC86-7AFD0C2F7D23}">
+		<SoundBank Id="2244307409" Type="Event" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" Language="SFX" Hash="{905EDF10-A21B-275E-9226-AC87BDFD011E}">
 			<ObjectPath>Alien_Foot</ObjectPath>
 			<ShortName>Alien_Foot</ShortName>
 			<Path>Event/Alien_Foot.bnk</Path>
+			<Media>
+				<File Id="23727193" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-07.wav</ShortName>
+					<Path>Media/23727193.wem</Path>
+					<CachePath>33/{335406D7-1257-7830-2AE4-0684C321F56E}.wem</CachePath>
+				</File>
+				<File Id="53148013" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-03.wav</ShortName>
+					<Path>Media/53148013.wem</Path>
+					<CachePath>69/{69D193CF-7A70-88A7-400F-E23CF6D3F4C0}.wem</CachePath>
+				</File>
+				<File Id="434044477" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-06.wav</ShortName>
+					<Path>Media/434044477.wem</Path>
+					<CachePath>BB/{BB4A8F3A-17CC-7C99-81FD-FF3C55FBF05B}.wem</CachePath>
+				</File>
+				<File Id="465565665" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-02.wav</ShortName>
+					<Path>Media/465565665.wem</Path>
+					<CachePath>E7/{E7C76F8A-CF02-47B1-A9CA-2E9CB83F3305}.wem</CachePath>
+				</File>
+				<File Id="727299687" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-04.wav</ShortName>
+					<Path>Media/727299687.wem</Path>
+					<CachePath>A1/{A1ABA2B7-5CB7-B81A-D05C-341C6005B1E6}.wem</CachePath>
+				</File>
+				<File Id="827672548" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-05.wav</ShortName>
+					<Path>Media/827672548.wem</Path>
+					<CachePath>6A/{6AB67646-03ED-702A-9121-5CF4E064CE61}.wem</CachePath>
+				</File>
+				<File Id="895639720" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-01.wav</ShortName>
+					<Path>Media/895639720.wem</Path>
+					<CachePath>80/{80B14884-A29E-8AEC-3F84-5E6D7118C692}.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="2244307409" Name="Alien_Foot" ObjectPath="\Events\Default Work Unit\Alien_Foot" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2244307409" Name="Alien_Foot" ObjectPath="\Events\Default Work Unit\Alien_Foot" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" MaxAttenuation="200" DurationType="OneShot" DurationMin="0.73307973" DurationMax="0.92362255">
+					<MediaRefs>
+						<MediaRef Id="23727193"/>
+						<MediaRef Id="53148013"/>
+						<MediaRef Id="434044477"/>
+						<MediaRef Id="465565665"/>
+						<MediaRef Id="727299687"/>
+						<MediaRef Id="827672548"/>
+						<MediaRef Id="895639720"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2385628198" Type="Event" GUID="{154FAD4F-B779-4F14-8470-3861C7285557}" Language="SFX" Hash="{0D5E151C-C933-2D99-A55D-C847E81C9EEB}">
+		<SoundBank Id="2385628198" Type="Event" GUID="{154FAD4F-B779-4F14-8470-3861C7285557}" Language="SFX" Hash="{2396C10D-CDB5-6B37-BF4F-0DBA3DAB6531}">
 			<ObjectPath>Footsteps</ObjectPath>
 			<ShortName>Footsteps</ShortName>
 			<Path>Event/Footsteps.bnk</Path>
@@ -164,6 +233,11 @@
 					<Path>Media/171856599.wem</Path>
 					<CachePath>64/{6434FA49-7FD3-04CF-A25E-148BE5D83D74}.wem</CachePath>
 				</File>
+				<File Id="179856077" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>metal feet-02.wav</ShortName>
+					<Path>Media/179856077.wem</Path>
+					<CachePath>DB/{DB2ED98C-57C3-BD6E-1071-23AEA1DF26FC}.wem</CachePath>
+				</File>
 				<File Id="180126548" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-030.wav</ShortName>
 					<Path>Media/180126548.wem</Path>
@@ -173,6 +247,11 @@
 					<ShortName>SqueltchyFootSteps-011.wav</ShortName>
 					<Path>Media/206213193.wem</Path>
 					<CachePath>4E/{4E6D7471-D725-3AB1-4DFD-8380C9961F77}.wem</CachePath>
+				</File>
+				<File Id="237506503" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>metal feet-06.wav</ShortName>
+					<Path>Media/237506503.wem</Path>
+					<CachePath>76/{76D3DBEB-3D1D-FC5B-9C2B-F4FCA7B31965}.wem</CachePath>
 				</File>
 				<File Id="286563397" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-06.wav</ShortName>
@@ -189,6 +268,11 @@
 					<Path>Media/308066500.wem</Path>
 					<CachePath>8D/{8D0057FB-AF94-7C3E-84F0-353DEC3E21B4}.wem</CachePath>
 				</File>
+				<File Id="328106601" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>metal feet-05.wav</ShortName>
+					<Path>Media/328106601.wem</Path>
+					<CachePath>C7/{C7A6660D-5592-8C14-353E-810A5ED36277}.wem</CachePath>
+				</File>
 				<File Id="331893992" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-015.wav</ShortName>
 					<Path>Media/331893992.wem</Path>
@@ -203,6 +287,11 @@
 					<ShortName>SqueltchyFootSteps-028.wav</ShortName>
 					<Path>Media/345659572.wem</Path>
 					<CachePath>CE/{CE2A5841-7F3D-4F26-75D7-BD3F3ABA9795}.wem</CachePath>
+				</File>
+				<File Id="357679920" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>metal feet-01.wav</ShortName>
+					<Path>Media/357679920.wem</Path>
+					<CachePath>1D/{1D98823A-581A-B591-0024-D59969278E3A}.wem</CachePath>
 				</File>
 				<File Id="367413613" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-020.wav</ShortName>
@@ -304,6 +393,11 @@
 					<Path>Media/799552893.wem</Path>
 					<CachePath>CB/{CB701EAE-466B-639B-B957-564C7D701DE4}.wem</CachePath>
 				</File>
+				<File Id="801858656" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>metal feet-03.wav</ShortName>
+					<Path>Media/801858656.wem</Path>
+					<CachePath>F2/{F27FEAF0-7345-55FD-DF88-095E501B303E}.wem</CachePath>
+				</File>
 				<File Id="865529766" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Grate footsteps-03.wav</ShortName>
 					<Path>Media/865529766.wem</Path>
@@ -329,6 +423,11 @@
 					<Path>Media/959801074.wem</Path>
 					<CachePath>87/{878BC6F1-586B-A709-27EA-26AA98ED4BEE}.wem</CachePath>
 				</File>
+				<File Id="1034529632" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>metal feet-04.wav</ShortName>
+					<Path>Media/1034529632.wem</Path>
+					<CachePath>A1/{A180FA93-CD72-A037-EC3C-68B925175FE0}.wem</CachePath>
+				</File>
 				<File Id="1042765643" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>SqueltchyFootSteps-034.wav</ShortName>
 					<Path>Media/1042765643.wem</Path>
@@ -346,7 +445,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps" GUID="{154FAD4F-B779-4F14-8470-3861C7285557}" DurationType="OneShot" DurationMin="0" DurationMax="2">
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps" GUID="{154FAD4F-B779-4F14-8470-3861C7285557}" DurationType="OneShot" DurationMin="0.11610416" DurationMax="2">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="1181096339" GUID="{76EAEA1F-F11C-4F21-BCAD-5E6D28B9E8B7}"/>
@@ -397,6 +496,17 @@
 								<MediaRef Id="959801074"/>
 							</MediaRefs>
 						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="4164757166" GUID="{3D747881-4754-4503-BD78-41179AD9AF00}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="179856077"/>
+								<MediaRef Id="237506503"/>
+								<MediaRef Id="328106601"/>
+								<MediaRef Id="357679920"/>
+								<MediaRef Id="801858656"/>
+								<MediaRef Id="1034529632"/>
+							</MediaRefs>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 			</Events>
@@ -429,22 +539,25 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3122905781" Type="Event" GUID="{56628A9A-04C2-4566-B632-450AF2A845AB}" Language="SFX" Hash="{2A19DBD4-3386-1BB1-9A61-745C5CC94399}">
-			<ObjectPath>Taser_Load</ObjectPath>
-			<ShortName>Taser_Load</ShortName>
-			<Path>Event/Taser_Load.bnk</Path>
-			<Events>
-				<Event Id="3122905781" Name="Taser_Load" ObjectPath="\Events\Default Work Unit\Taser_Load" GUID="{56628A9A-04C2-4566-B632-450AF2A845AB}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="3660512661" Type="Event" GUID="{C017A67E-0C43-4B9C-A787-39CCAD215E39}" Language="SFX" Hash="{E222929E-6E74-EC2B-B5C5-B59F33554ADD}">
+		<SoundBank Id="3660512661" Type="Event" GUID="{C017A67E-0C43-4B9C-A787-39CCAD215E39}" Language="SFX" Hash="{1E6F93C3-29F4-3F99-48D2-7BA08422F190}">
 			<ObjectPath>Oxygen</ObjectPath>
 			<ShortName>Oxygen</ShortName>
 			<Path>Event/Oxygen.bnk</Path>
+			<Media>
+				<File Id="103837071" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Oxygen fill.wav</ShortName>
+					<Path>Media/103837071.wem</Path>
+					<CachePath>F8/{F8E750EB-6BA0-64BB-3AEC-A79FB975A75B}.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="3660512661" Name="Oxygen" ObjectPath="\Events\Default Work Unit\Oxygen" GUID="{C017A67E-0C43-4B9C-A787-39CCAD215E39}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3660512661" Name="Oxygen" ObjectPath="\Events\Default Work Unit\Oxygen" GUID="{C017A67E-0C43-4B9C-A787-39CCAD215E39}" DurationType="OneShot" DurationMin="2.9745781" DurationMax="2.9745781">
+					<MediaRefs>
+						<MediaRef Id="103837071"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{471A30A0-B820-9A8A-95CA-03151CD0BFAB}</FileHash>
+	<FileHash>{6235EFC0-6592-63E3-3C29-FB5E68E37A42}</FileHash>
 </SoundBanksInfo>

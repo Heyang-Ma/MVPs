@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="741451449" Type="Event" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" Language="SFX" Hash="{B7F1132D-1288-41CC-2B5D-55C80EFE62C6}">
+		<SoundBank Id="741451449" Type="Event" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" Language="SFX" Hash="{D7B8B943-3C80-BA6C-FA65-39D2F656328F}">
 			<ObjectPath>Jukeboxes</ObjectPath>
 			<ShortName>Jukeboxes</ShortName>
 			<Path>Event/Jukeboxes.bnk</Path>
+			<Media>
+				<File Id="61250036" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Jukebox.wav</ShortName>
+					<Path>Media/61250036.wem</Path>
+					<CachePath>49/{49CA0943-6B02-1030-B662-504C7CD8B1C4}.wem</CachePath>
+				</File>
+			</Media>
 			<Events>
-				<Event Id="741451449" Name="Jukeboxes" ObjectPath="\Events\Default Work Unit\Jukeboxes" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="741451449" Name="Jukeboxes" ObjectPath="\Events\Default Work Unit\Jukeboxes" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" DurationType="OneShot" DurationMin="0.6377083" DurationMax="0.6377083">
+					<MediaRefs>
+						<MediaRef Id="61250036"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{37042B17-E05C-AC7C-743C-9643E8A1CED4}</FileHash>
+	<FileHash>{CC0DE048-6CA3-6FB6-B7DE-9F514D6C77F2}</FileHash>
 </SoundBanksInfo>
