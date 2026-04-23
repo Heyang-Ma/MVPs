@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="2244307409" Type="Event" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" Language="SFX" Hash="{905EDF10-A21B-275E-9226-AC87BDFD011E}">
+		<SoundBank Id="2244307409" Type="Event" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" Language="SFX" Hash="{8BE66BE5-01FC-5A95-84BA-281558063D3B}">
 			<ObjectPath>Alien_Foot</ObjectPath>
 			<ShortName>Alien_Foot</ShortName>
 			<Path>Event/Alien_Foot.bnk</Path>
@@ -57,5 +57,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{535C5E72-E236-434D-DAFC-23409BB1DE4C}</FileHash>
+	<FileHash>{EF83CB83-D074-F647-351F-0D711A9B8F20}</FileHash>
 </SoundBanksInfo>

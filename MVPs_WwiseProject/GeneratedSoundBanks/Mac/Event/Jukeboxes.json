@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FDB6B782-F323-457C-914C-FDFE9D7406B4}",
     "Language": "SFX",
-    "Hash": "{D7B8B943-3C80-BA6C-FA65-39D2F656328F}",
+    "Hash": "{BDC676C4-6BBE-A641-23D9-96AF33BFAB35}",
     "ObjectPath": "Jukeboxes",
     "ShortName": "Jukeboxes",
     "Path": "Event/Jukeboxes.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{7A4BCCDC-18B1-A3B5-77C4-B39C865E8C32}"
+  "FileHash": "{C589C7E7-D5EE-CAA7-713D-3225461475A3}"
  }
 }

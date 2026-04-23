@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}",
     "Language": "SFX",
-    "Hash": "{0E445681-96A6-0657-1E95-C83A35E144C5}",
+    "Hash": "{C3E4062A-7C63-5764-6B8A-B5FC397DC40C}",
     "ObjectPath": "Generator",
     "ShortName": "Generator",
     "Path": "Event/Generator.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{BB575B13-647E-F04C-DEA8-271936971820}"
+  "FileHash": "{ADC60C6E-4149-30F6-F7EF-ECE42EA8B008}"
  }
 }

@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}",
     "Language": "SFX",
-    "Hash": "{905EDF10-A21B-275E-9226-AC87BDFD011E}",
+    "Hash": "{8BE66BE5-01FC-5A95-84BA-281558063D3B}",
     "ObjectPath": "Alien_Foot",
     "ShortName": "Alien_Foot",
     "Path": "Event/Alien_Foot.bnk",
@@ -116,6 +116,6 @@
     ]
    }
   ],
-  "FileHash": "{0BC07227-E4E9-5B6B-D68D-988F8BBBFF9E}"
+  "FileHash": "{178FC180-DA4B-34E5-7B0D-51BDB5843647}"
  }
 }

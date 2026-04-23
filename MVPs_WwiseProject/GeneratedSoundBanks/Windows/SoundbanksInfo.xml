@@ -28,7 +28,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="334231652" Type="Event" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" Language="SFX" Hash="{0E445681-96A6-0657-1E95-C83A35E144C5}">
+		<SoundBank Id="334231652" Type="Event" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" Language="SFX" Hash="{C3E4062A-7C63-5764-6B8A-B5FC397DC40C}">
 			<ObjectPath>Generator</ObjectPath>
 			<ShortName>Generator</ShortName>
 			<Path>Event/Generator.bnk</Path>
@@ -66,7 +66,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="741451449" Type="Event" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" Language="SFX" Hash="{D7B8B943-3C80-BA6C-FA65-39D2F656328F}">
+		<SoundBank Id="741451449" Type="Event" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" Language="SFX" Hash="{BDC676C4-6BBE-A641-23D9-96AF33BFAB35}">
 			<ObjectPath>Jukeboxes</ObjectPath>
 			<ShortName>Jukeboxes</ShortName>
 			<Path>Event/Jukeboxes.bnk</Path>
@@ -158,7 +158,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2244307409" Type="Event" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" Language="SFX" Hash="{905EDF10-A21B-275E-9226-AC87BDFD011E}">
+		<SoundBank Id="2244307409" Type="Event" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" Language="SFX" Hash="{8BE66BE5-01FC-5A95-84BA-281558063D3B}">
 			<ObjectPath>Alien_Foot</ObjectPath>
 			<ShortName>Alien_Foot</ShortName>
 			<Path>Event/Alien_Foot.bnk</Path>
@@ -559,5 +559,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DE2ABC70-E255-3370-CF35-3006483A9958}</FileHash>
+	<FileHash>{A3777DFF-4567-FFE1-FFA0-08431EB6FCD5}</FileHash>
 </SoundBanksInfo>

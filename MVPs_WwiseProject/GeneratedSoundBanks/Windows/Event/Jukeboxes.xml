@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="741451449" Type="Event" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" Language="SFX" Hash="{D7B8B943-3C80-BA6C-FA65-39D2F656328F}">
+		<SoundBank Id="741451449" Type="Event" GUID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}" Language="SFX" Hash="{BDC676C4-6BBE-A641-23D9-96AF33BFAB35}">
 			<ObjectPath>Jukeboxes</ObjectPath>
 			<ShortName>Jukeboxes</ShortName>
 			<Path>Event/Jukeboxes.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{093261F3-0AC3-2302-BE19-3E055F206E05}</FileHash>
+	<FileHash>{BA5894E2-6ABB-DD94-02C2-BD28348FFBC7}</FileHash>
 </SoundBanksInfo>
