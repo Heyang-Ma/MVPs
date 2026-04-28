@@ -1,0 +1,32 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2835444528",
+    "Type": "Event",
+    "GUID": "{DD38BF76-B7B8-4CB6-94D1-FF611CB38B41}",
+    "Language": "SFX",
+    "Hash": "{B044243A-2CFD-3B31-F5D9-D8C224464351}",
+    "ObjectPath": "small_doors",
+    "ShortName": "small_doors",
+    "Path": "Event/small_doors.bnk",
+    "Events": [
+     {
+      "Id": "2835444528",
+      "Name": "small_doors",
+      "ObjectPath": "\\Events\\Default Work Unit\\small_doors",
+      "GUID": "{DD38BF76-B7B8-4CB6-94D1-FF611CB38B41}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9E2E7EE2-50C7-B41D-E6EA-CA148B47C822}"
+ }
+}

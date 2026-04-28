@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="1792046091" Type="Event" GUID="{2B210520-D395-4A71-9E81-9A39A8430DC2}" Language="SFX" Hash="{AF005D71-8859-F25D-8AB2-000CC83A4DE0}">
+			<ObjectPath>Collision</ObjectPath>
+			<ShortName>Collision</ShortName>
+			<Path>Event/Collision.bnk</Path>
+			<Media>
+				<File Id="39455169" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-014.wav</ShortName>
+					<Path>Media/39455169.wem</Path>
+					<CachePath>B8/{B85295B5-2103-1719-093E-B5A31B8798A4}.wem</CachePath>
+				</File>
+				<File Id="171856599" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-002.wav</ShortName>
+					<Path>Media/171856599.wem</Path>
+					<CachePath>64/{6434FA49-7FD3-04CF-A25E-148BE5D83D74}.wem</CachePath>
+				</File>
+				<File Id="180126548" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-030.wav</ShortName>
+					<Path>Media/180126548.wem</Path>
+					<CachePath>B0/{B0A338F4-66F1-0702-2F8B-250392273FEB}.wem</CachePath>
+				</File>
+				<File Id="206213193" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-011.wav</ShortName>
+					<Path>Media/206213193.wem</Path>
+					<CachePath>4E/{4E6D7471-D725-3AB1-4DFD-8380C9961F77}.wem</CachePath>
+				</File>
+				<File Id="302454655" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-019.wav</ShortName>
+					<Path>Media/302454655.wem</Path>
+					<CachePath>2D/{2DEDEDE4-43F6-A001-3A3B-A2D5B559EC29}.wem</CachePath>
+				</File>
+				<File Id="308066500" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-009.wav</ShortName>
+					<Path>Media/308066500.wem</Path>
+					<CachePath>8D/{8D0057FB-AF94-7C3E-84F0-353DEC3E21B4}.wem</CachePath>
+				</File>
+				<File Id="331893992" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-015.wav</ShortName>
+					<Path>Media/331893992.wem</Path>
+					<CachePath>9B/{9BEAED8C-11D2-6204-C921-E71077827F54}.wem</CachePath>
+				</File>
+				<File Id="343421540" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-027.wav</ShortName>
+					<Path>Media/343421540.wem</Path>
+					<CachePath>11/{119CA77F-1953-66EB-9A11-27C03BB0A7E7}.wem</CachePath>
+				</File>
+				<File Id="345659572" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-028.wav</ShortName>
+					<Path>Media/345659572.wem</Path>
+					<CachePath>CE/{CE2A5841-7F3D-4F26-75D7-BD3F3ABA9795}.wem</CachePath>
+				</File>
+				<File Id="367413613" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-020.wav</ShortName>
+					<Path>Media/367413613.wem</Path>
+					<CachePath>D5/{D5B8BF8D-3E95-3888-AC08-9E86E9BC0A3C}.wem</CachePath>
+				</File>
+				<File Id="373820200" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-010.wav</ShortName>
+					<Path>Media/373820200.wem</Path>
+					<CachePath>63/{63F3202B-8B6E-A58E-BA72-2F1D878D2B91}.wem</CachePath>
+				</File>
+				<File Id="395064991" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-023.wav</ShortName>
+					<Path>Media/395064991.wem</Path>
+					<CachePath>97/{97852DDD-E3B9-2408-58E4-C9F58322DC0B}.wem</CachePath>
+				</File>
+				<File Id="406984060" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-025.wav</ShortName>
+					<Path>Media/406984060.wem</Path>
+					<CachePath>6E/{6E38AB65-4312-AB5C-2AAA-459BCB8F9981}.wem</CachePath>
+				</File>
+				<File Id="481567546" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-024.wav</ShortName>
+					<Path>Media/481567546.wem</Path>
+					<CachePath>A6/{A6ACC5D4-5465-D553-2AC3-5BB0FE3686EA}.wem</CachePath>
+				</File>
+				<File Id="519208735" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-003.wav</ShortName>
+					<Path>Media/519208735.wem</Path>
+					<CachePath>36/{3681B0F8-BF90-9E28-702A-A4EDC454D680}.wem</CachePath>
+				</File>
+				<File Id="540749080" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-018.wav</ShortName>
+					<Path>Media/540749080.wem</Path>
+					<CachePath>7D/{7D4B4703-4640-525A-C3F3-E0D8C757D19F}.wem</CachePath>
+				</File>
+				<File Id="555213044" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-004.wav</ShortName>
+					<Path>Media/555213044.wem</Path>
+					<CachePath>36/{36919A5F-85A9-E0F1-3F2F-64CA8C907AC0}.wem</CachePath>
+				</File>
+				<File Id="568478188" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-032.wav</ShortName>
+					<Path>Media/568478188.wem</Path>
+					<CachePath>DC/{DCB25499-C7DF-1C2F-C2B5-150F02EE63CC}.wem</CachePath>
+				</File>
+				<File Id="589553627" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-026.wav</ShortName>
+					<Path>Media/589553627.wem</Path>
+					<CachePath>47/{476B1133-E77D-629F-D69C-52F1414B88DB}.wem</CachePath>
+				</File>
+				<File Id="603961721" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-008.wav</ShortName>
+					<Path>Media/603961721.wem</Path>
+					<CachePath>95/{954E8B03-A917-CF9D-A58C-88CF20ED2EA2}.wem</CachePath>
+				</File>
+				<File Id="632533533" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-012.wav</ShortName>
+					<Path>Media/632533533.wem</Path>
+					<CachePath>50/{50836754-C8FA-F3D8-9E80-9456CE375E69}.wem</CachePath>
+				</File>
+				<File Id="688087188" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-001.wav</ShortName>
+					<Path>Media/688087188.wem</Path>
+					<CachePath>B9/{B99FEF75-4B69-70FB-8535-6AD06FD584CC}.wem</CachePath>
+				</File>
+				<File Id="710028379" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-031.wav</ShortName>
+					<Path>Media/710028379.wem</Path>
+					<CachePath>DD/{DD9C8AB9-68F2-C406-8975-C1998D47A3C7}.wem</CachePath>
+				</File>
+				<File Id="757547361" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-029.wav</ShortName>
+					<Path>Media/757547361.wem</Path>
+					<CachePath>48/{48F71821-D7C9-EE02-EAE2-B2B05FD175BB}.wem</CachePath>
+				</File>
+				<File Id="776334334" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-033.wav</ShortName>
+					<Path>Media/776334334.wem</Path>
+					<CachePath>DC/{DCB25499-C7DF-1C2F-C2B5-150F02EE63CC}.wem</CachePath>
+				</File>
+				<File Id="895158241" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-013.wav</ShortName>
+					<Path>Media/895158241.wem</Path>
+					<CachePath>4F/{4F68A3D6-E3FB-0D62-0492-C9666FB27EA5}.wem</CachePath>
+				</File>
+				<File Id="896412088" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-021.wav</ShortName>
+					<Path>Media/896412088.wem</Path>
+					<CachePath>B6/{B6783726-1B4C-DEEA-AADD-72CFFAE2A276}.wem</CachePath>
+				</File>
+				<File Id="907219808" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-022.wav</ShortName>
+					<Path>Media/907219808.wem</Path>
+					<CachePath>E9/{E9D8FC48-BFE3-A0B9-AB83-AEC8628E4E09}.wem</CachePath>
+				</File>
+				<File Id="1042765643" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-034.wav</ShortName>
+					<Path>Media/1042765643.wem</Path>
+					<CachePath>7C/{7C46E368-A9EA-F0CB-DE91-D27365B2322B}.wem</CachePath>
+				</File>
+				<File Id="1057440885" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-017.wav</ShortName>
+					<Path>Media/1057440885.wem</Path>
+					<CachePath>C3/{C3E2B0BE-1515-391C-AC14-A4AF5F4653DC}.wem</CachePath>
+				</File>
+				<File Id="1057521351" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SqueltchyFootSteps-016.wav</ShortName>
+					<Path>Media/1057521351.wem</Path>
+					<CachePath>78/{78782B7A-1C14-B26C-B82C-7A1E5220C4AA}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1792046091" Name="Collision" ObjectPath="\Events\Default Work Unit\Collision" GUID="{2B210520-D395-4A71-9E81-9A39A8430DC2}" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="39455169"/>
+						<MediaRef Id="171856599"/>
+						<MediaRef Id="180126548"/>
+						<MediaRef Id="206213193"/>
+						<MediaRef Id="302454655"/>
+						<MediaRef Id="308066500"/>
+						<MediaRef Id="331893992"/>
+						<MediaRef Id="343421540"/>
+						<MediaRef Id="345659572"/>
+						<MediaRef Id="367413613"/>
+						<MediaRef Id="373820200"/>
+						<MediaRef Id="395064991"/>
+						<MediaRef Id="406984060"/>
+						<MediaRef Id="481567546"/>
+						<MediaRef Id="519208735"/>
+						<MediaRef Id="540749080"/>
+						<MediaRef Id="555213044"/>
+						<MediaRef Id="568478188"/>
+						<MediaRef Id="589553627"/>
+						<MediaRef Id="603961721"/>
+						<MediaRef Id="632533533"/>
+						<MediaRef Id="688087188"/>
+						<MediaRef Id="710028379"/>
+						<MediaRef Id="757547361"/>
+						<MediaRef Id="776334334"/>
+						<MediaRef Id="895158241"/>
+						<MediaRef Id="896412088"/>
+						<MediaRef Id="907219808"/>
+						<MediaRef Id="1042765643"/>
+						<MediaRef Id="1057440885"/>
+						<MediaRef Id="1057521351"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{C4B6FAFE-675D-93E9-C411-91B6152D7791}</FileHash>
+</SoundBanksInfo>

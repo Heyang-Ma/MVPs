@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="2835444528" Type="Event" GUID="{DD38BF76-B7B8-4CB6-94D1-FF611CB38B41}" Language="SFX" Hash="{B044243A-2CFD-3B31-F5D9-D8C224464351}">
+			<ObjectPath>small_doors</ObjectPath>
+			<ShortName>small_doors</ShortName>
+			<Path>Event/small_doors.bnk</Path>
+			<Events>
+				<Event Id="2835444528" Name="small_doors" ObjectPath="\Events\Default Work Unit\small_doors" GUID="{DD38BF76-B7B8-4CB6-94D1-FF611CB38B41}" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3FD148C6-E979-E737-542C-AA468C0F61AC}</FileHash>
+</SoundBanksInfo>

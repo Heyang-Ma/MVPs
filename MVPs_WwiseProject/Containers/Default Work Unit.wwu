@@ -1376,6 +1376,127 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{E0937958-F0DC-42C0-A596-C8EA51E670DF}" ShortID="292473136">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="120"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{A433F78F-41DF-4962-9221-799C23A6D502}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>120</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{4A35A48D-07A4-4830-8F08-42B8AEA7CC9F}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>120</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<DualShelfUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</DualShelfUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<ObstructionDSFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionDSFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<OcclusionDSFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionDSFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<DiffractionDSFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionDSFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
+										<TransmissionDSFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionDSFUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
 						</Reference>
@@ -1611,6 +1732,127 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{1677F93F-A366-4A6B-AAFE-DAA0AE6C5B33}" ShortID="413770438">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="150"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{CEEF5326-4DD7-4F57-B2AD-186B64C92803}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Log1</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>150</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="LowPassFilter" ID="{FB06ABDC-40DC-446C-B8C4-AA775DD2B1F2}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="65537"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+															<SegmentShape>Exp3</SegmentShape>
+														</Point>
+														<Point>
+															<XPos>150</XPos>
+															<YPos>100</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<DualShelfUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</DualShelfUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<ObstructionDSFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionDSFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<OcclusionDSFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionDSFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<DiffractionDSFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionDSFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
+										<TransmissionDSFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionDSFUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
 						</Reference>
@@ -1742,6 +1984,710 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="wet collision" ID="{C91D3F7E-9B45-45EB-8C57-C964C7702179}" ShortID="847493457">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SqueltchyFootSteps-001" ID="{98E5FB09-B6BA-4BBE-99D7-EF090F8991BF}" ShortID="853241235">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-001" ID="{A2B1A419-5B9B-4408-B2EC-6A05A765F99A}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="688087188"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-001" ID="{A2B1A419-5B9B-4408-B2EC-6A05A765F99A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-002" ID="{B50CB7E3-362E-4EF0-954A-5C15148CD1BA}" ShortID="987736766">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-002" ID="{386F4BD9-2FFC-4309-9B0E-5212D453D3FC}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="171856599"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-002" ID="{386F4BD9-2FFC-4309-9B0E-5212D453D3FC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-003" ID="{55C11505-0E0D-486C-BD2C-AC248BC9FC62}" ShortID="1059925070">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-003" ID="{A51A9FB0-D204-4CD0-AEFE-907D932CD346}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="519208735"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-003" ID="{A51A9FB0-D204-4CD0-AEFE-907D932CD346}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-004" ID="{1AD3D4C4-0F66-4D06-89BB-51FFA3FF5DA0}" ShortID="383405969">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-004" ID="{CD65471C-1FE6-4B1A-BA98-999CA69D0136}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="555213044"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-004" ID="{CD65471C-1FE6-4B1A-BA98-999CA69D0136}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-008" ID="{D30726AC-1C25-45CC-968F-528366FB5D99}" ShortID="1054909201">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-008" ID="{B77A4098-ED28-4C71-8CE4-8D90816533BF}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-008.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="603961721"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-008" ID="{B77A4098-ED28-4C71-8CE4-8D90816533BF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-009" ID="{09863921-4F97-444C-B458-C8CFFD3C296F}" ShortID="741421761">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-009" ID="{B690DCEF-CF8E-4C50-BA49-8B67B76B715F}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-009.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="308066500"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-009" ID="{B690DCEF-CF8E-4C50-BA49-8B67B76B715F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-010" ID="{47E90DBD-73B8-4CC6-B55A-62B88D733454}" ShortID="291471563">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-010" ID="{AB1F12EE-704C-49BC-9FD0-57764E9B7062}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-010.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="373820200"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-010" ID="{AB1F12EE-704C-49BC-9FD0-57764E9B7062}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-011" ID="{A3963325-C1F9-4AEB-A493-66D184030B9B}" ShortID="446799105">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-011" ID="{D4389E33-491A-40CA-AFCB-A90E1D16011F}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-011.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="206213193"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-011" ID="{D4389E33-491A-40CA-AFCB-A90E1D16011F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-012" ID="{EBB03043-1A51-49EA-B49E-93141BEEFADC}" ShortID="543375956">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-012" ID="{3F7BD6F3-7447-4450-A7F5-9AC632AF0DA3}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-012.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="632533533"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-012" ID="{3F7BD6F3-7447-4450-A7F5-9AC632AF0DA3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-013" ID="{48938DFF-7B16-48D9-A356-D5DF1EEF1F8F}" ShortID="725183990">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-013" ID="{D6F140FC-9D81-4557-B48F-8BFA020BD087}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-013.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="895158241"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-013" ID="{D6F140FC-9D81-4557-B48F-8BFA020BD087}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-014" ID="{FD031973-3547-42C2-B701-1676899407AF}" ShortID="804329384">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-014" ID="{FF0B0CB9-DB12-4044-8BB5-8BA8CC83833B}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-014.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="39455169"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-014" ID="{FF0B0CB9-DB12-4044-8BB5-8BA8CC83833B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-015" ID="{BEC545DC-C1DA-49A0-8934-D31AD77C0C68}" ShortID="534791498">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-015" ID="{0DC5C636-F939-412D-A3AE-6CD1B4152FEE}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-015.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="331893992"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-015" ID="{0DC5C636-F939-412D-A3AE-6CD1B4152FEE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-016" ID="{087201B1-F808-4289-A638-546143570D45}" ShortID="730472470">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-016" ID="{FE0B7AE9-75DC-4848-B4FD-464825E3E17C}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-016.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1057521351"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-016" ID="{FE0B7AE9-75DC-4848-B4FD-464825E3E17C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-017" ID="{F8623890-7A09-46E4-803B-55D8080395DC}" ShortID="81645856">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-017" ID="{3957656A-D48C-4742-AE1B-152DA7172A3E}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-017.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1057440885"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-017" ID="{3957656A-D48C-4742-AE1B-152DA7172A3E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-018" ID="{6C1728FC-32F3-467F-A5AB-FE7BEFD780BC}" ShortID="1012684029">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-018" ID="{E16C43FB-6A80-4D17-A5D1-6AD4EDDC5B46}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-018.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="540749080"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-018" ID="{E16C43FB-6A80-4D17-A5D1-6AD4EDDC5B46}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-019" ID="{C7BF1201-3ED2-4192-B90E-15374A6978A5}" ShortID="789071749">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-019" ID="{2E5BBBBB-8572-4E14-BD15-4438991B5F75}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-019.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="302454655"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-019" ID="{2E5BBBBB-8572-4E14-BD15-4438991B5F75}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-020" ID="{6ADDFC52-296A-477B-9536-4BB2EDDB4616}" ShortID="475629808">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-020" ID="{0D6D5C20-B3ED-42EC-9BF9-F4A6383FB58A}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-020.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="367413613"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-020" ID="{0D6D5C20-B3ED-42EC-9BF9-F4A6383FB58A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-021" ID="{38E21981-E175-4882-ACAA-7732F56EE3F6}" ShortID="509803728">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-021" ID="{082DA0C0-3580-4052-99F3-5303276C2EFC}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-021.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="896412088"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-021" ID="{082DA0C0-3580-4052-99F3-5303276C2EFC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-022" ID="{3448E6D3-65AD-4828-A12B-2844F6C2C9A8}" ShortID="14341788">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-022" ID="{5C63D505-37B7-451A-8413-437F28E85169}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-022.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="907219808"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-022" ID="{5C63D505-37B7-451A-8413-437F28E85169}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-023" ID="{EC43EE87-004B-441A-B1A9-3F5D969F13A8}" ShortID="168099135">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-023" ID="{994114E0-221D-46E6-8E6D-378B48695D1A}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-023.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="395064991"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-023" ID="{994114E0-221D-46E6-8E6D-378B48695D1A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-024" ID="{2791E4B2-7D48-4740-8BEE-4648694E8248}" ShortID="705327061">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-024" ID="{33772B86-04CD-4214-84BC-A6A25C635AF8}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-024.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="481567546"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-024" ID="{33772B86-04CD-4214-84BC-A6A25C635AF8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-025" ID="{5E7F698B-3E07-412C-A629-382B669975BB}" ShortID="617202881">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-025" ID="{B7E42BAA-4041-4519-98EF-9D5B8CE2900F}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-025.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="406984060"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-025" ID="{B7E42BAA-4041-4519-98EF-9D5B8CE2900F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-026" ID="{7DC8936B-A45C-44ED-9917-C4298EBEEEA2}" ShortID="503381300">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-026" ID="{3E722CD3-D20D-458A-83A2-EF5C7EDF0849}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-026.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="589553627"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-026" ID="{3E722CD3-D20D-458A-83A2-EF5C7EDF0849}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-027" ID="{EF830F15-7A2F-475E-BC8F-ED0E06759334}" ShortID="645054544">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-027" ID="{DC05DBBB-5679-48C4-944A-7A17AB6CD6BF}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-027.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="343421540"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-027" ID="{DC05DBBB-5679-48C4-944A-7A17AB6CD6BF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-028" ID="{85CC182E-174D-4E7E-8ADB-D009505EC5D2}" ShortID="681233044">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-028" ID="{74FC3557-F6AF-484E-8F33-12BC02D3BB31}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-028.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="345659572"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-028" ID="{74FC3557-F6AF-484E-8F33-12BC02D3BB31}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-029" ID="{4C1852C4-C3B6-4AC6-B8A9-3370F0B9C501}" ShortID="228851881">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-029" ID="{757DA125-4CAD-4A20-8613-C0AAB3F193F6}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-029.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="757547361"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-029" ID="{757DA125-4CAD-4A20-8613-C0AAB3F193F6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-030" ID="{94A34E66-D9D1-4C11-8A1E-2610FDDBF605}" ShortID="491661588">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-030" ID="{559D0458-04A4-45EC-8D01-14B24C8B0722}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-030.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="180126548"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-030" ID="{559D0458-04A4-45EC-8D01-14B24C8B0722}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-031" ID="{0812EEB8-B2E9-4A13-BD14-A07A13CD2F37}" ShortID="70193328">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-031" ID="{D9C8687F-E5BC-4247-84AF-D5C09D302221}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-031.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="710028379"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-031" ID="{D9C8687F-E5BC-4247-84AF-D5C09D302221}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-032" ID="{27026621-7B25-4605-951C-7D5DA1BB9693}" ShortID="770024731">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-032" ID="{870EC0DF-5C16-47CB-B992-D686FDAA18D9}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-032.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="568478188"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-032" ID="{870EC0DF-5C16-47CB-B992-D686FDAA18D9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-033" ID="{388A4E3B-0831-4C14-B935-FAF6149261CF}" ShortID="1028527638">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-033" ID="{69E15E23-BD6F-4D68-99D8-88200D70F95A}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-033.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="776334334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-033" ID="{69E15E23-BD6F-4D68-99D8-88200D70F95A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SqueltchyFootSteps-034" ID="{F0088CD0-71AA-4EF4-8396-AA88112F0084}" ShortID="751713505">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SqueltchyFootSteps-034" ID="{84CA0CC9-FBCC-481D-978C-927FFE9D283A}">
+									<Language>SFX</Language>
+									<AudioFile>SqueltchyFootSteps-034.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1042765643"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SqueltchyFootSteps-034" ID="{84CA0CC9-FBCC-481D-978C-927FFE9D283A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="small doors" ID="{AC2EAB1D-9048-4398-A486-355A52309354}" ShortID="581127811">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+						</Reference>
+					</ReferenceList>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

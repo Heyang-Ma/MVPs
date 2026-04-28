@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{FDB6B782-F323-457C-914C-FDFE9D7406B4}",
     "Language": "SFX",
-    "Hash": "{BDC676C4-6BBE-A641-23D9-96AF33BFAB35}",
+    "Hash": "{9021D32D-ED47-89D3-75B7-39E015781525}",
     "ObjectPath": "Jukeboxes",
     "ShortName": "Jukeboxes",
     "Path": "Event/Jukeboxes.bnk",
@@ -31,6 +31,7 @@
       "Name": "Jukeboxes",
       "ObjectPath": "\\Events\\Default Work Unit\\Jukeboxes",
       "GUID": "{FDB6B782-F323-457C-914C-FDFE9D7406B4}",
+      "MaxAttenuation": "150",
       "DurationType": "OneShot",
       "DurationMin": "0.6377083",
       "DurationMax": "0.6377083",
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{C589C7E7-D5EE-CAA7-713D-3225461475A3}"
+  "FileHash": "{251B4DC1-1A0A-F07B-116B-D608BD332EF8}"
  }
 }

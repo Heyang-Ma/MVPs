@@ -102,6 +102,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Collision" ID="{2B210520-D395-4A71-9E81-9A39A8430DC2}">
+					<ChildrenList>
+						<Action Name="" ID="{EB45649F-B83A-401C-BF1B-01BBD8352AFF}" ShortID="441302107">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wet collision" ID="{C91D3F7E-9B45-45EB-8C57-C964C7702179}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="small_doors" ID="{DD38BF76-B7B8-4CB6-94D1-FF611CB38B41}">
+					<ChildrenList>
+						<Action Name="" ID="{47E8821F-0EBB-4616-86FE-80F972C861E1}" ShortID="993711823">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="small doors" ID="{AC2EAB1D-9048-4398-A486-355A52309354}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

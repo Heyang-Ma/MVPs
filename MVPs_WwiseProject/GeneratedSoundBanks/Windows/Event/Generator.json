@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}",
     "Language": "SFX",
-    "Hash": "{C3E4062A-7C63-5764-6B8A-B5FC397DC40C}",
+    "Hash": "{C96F44B3-4CC9-6105-7B46-E3E707357DC8}",
     "ObjectPath": "Generator",
     "ShortName": "Generator",
     "Path": "Event/Generator.bnk",
@@ -31,6 +31,7 @@
       "Name": "Generator",
       "ObjectPath": "\\Events\\Default Work Unit\\Generator",
       "GUID": "{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}",
+      "MaxAttenuation": "120",
       "DurationType": "OneShot",
       "DurationMin": "52.673187",
       "DurationMax": "52.673187",
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{4D90F27F-5768-B81B-09AB-81410FA74E62}"
+  "FileHash": "{093175B2-8DE7-1F00-7E5D-6E6A23E58DDB}"
  }
 }
