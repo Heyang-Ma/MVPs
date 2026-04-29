@@ -28,7 +28,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="334231652" Type="Event" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" Language="SFX" Hash="{40006C9A-B780-A1C1-BAB4-E0EAB8928650}">
+		<SoundBank Id="334231652" Type="Event" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" Language="SFX" Hash="{35A2D156-21DA-D1F6-1FF7-89B0EE944EEE}">
 			<ObjectPath>Generator</ObjectPath>
 			<ShortName>Generator</ShortName>
 			<Path>Event/Generator.bnk</Path>
@@ -40,7 +40,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="334231652" Name="Generator" ObjectPath="\Events\Default Work Unit\Generator" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" DurationType="OneShot" DurationMin="52.673187" DurationMax="52.673187">
+				<Event Id="334231652" Name="Generator" ObjectPath="\Events\Default Work Unit\Generator" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" MaxAttenuation="120" DurationType="OneShot" DurationMin="52.673187" DurationMax="52.673187">
 					<MediaRefs>
 						<MediaRef Id="663779800"/>
 					</MediaRefs>
@@ -412,7 +412,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2385628198" Type="Event" GUID="{154FAD4F-B779-4F14-8470-3861C7285557}" Language="SFX" Hash="{2396C10D-CDB5-6B37-BF4F-0DBA3DAB6531}">
+		<SoundBank Id="2385628198" Type="Event" GUID="{154FAD4F-B779-4F14-8470-3861C7285557}" Language="SFX" Hash="{1EA2774D-43EB-765B-C6AA-349CF7BB3161}">
 			<ObjectPath>Footsteps</ObjectPath>
 			<ShortName>Footsteps</ShortName>
 			<Path>Event/Footsteps.bnk</Path>
@@ -766,5 +766,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DABE930B-87D2-CA34-3115-3B920C3D78BD}</FileHash>
+	<FileHash>{783E49D4-B88B-298E-31AC-258E10489F1D}</FileHash>
 </SoundBanksInfo>

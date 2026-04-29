@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="334231652" Type="Event" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" Language="SFX" Hash="{40006C9A-B780-A1C1-BAB4-E0EAB8928650}">
+		<SoundBank Id="334231652" Type="Event" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" Language="SFX" Hash="{35A2D156-21DA-D1F6-1FF7-89B0EE944EEE}">
 			<ObjectPath>Generator</ObjectPath>
 			<ShortName>Generator</ShortName>
 			<Path>Event/Generator.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="334231652" Name="Generator" ObjectPath="\Events\Default Work Unit\Generator" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" DurationType="OneShot" DurationMin="52.673187" DurationMax="52.673187">
+				<Event Id="334231652" Name="Generator" ObjectPath="\Events\Default Work Unit\Generator" GUID="{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}" MaxAttenuation="120" DurationType="OneShot" DurationMin="52.673187" DurationMax="52.673187">
 					<MediaRefs>
 						<MediaRef Id="663779800"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D4929B5C-903E-0718-B4E5-F9BBE422194F}</FileHash>
+	<FileHash>{68506FD7-1938-44B1-4B76-AA0ACE935F10}</FileHash>
 </SoundBanksInfo>

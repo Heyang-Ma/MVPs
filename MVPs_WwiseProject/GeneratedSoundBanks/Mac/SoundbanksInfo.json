@@ -53,7 +53,7 @@
     "Type": "Event",
     "GUID": "{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}",
     "Language": "SFX",
-    "Hash": "{40006C9A-B780-A1C1-BAB4-E0EAB8928650}",
+    "Hash": "{35A2D156-21DA-D1F6-1FF7-89B0EE944EEE}",
     "ObjectPath": "Generator",
     "ShortName": "Generator",
     "Path": "Event/Generator.bnk",
@@ -74,6 +74,7 @@
       "Name": "Generator",
       "ObjectPath": "\\Events\\Default Work Unit\\Generator",
       "GUID": "{DF5002EA-708D-4A8B-8AC6-BACD6B0411B8}",
+      "MaxAttenuation": "120",
       "DurationType": "OneShot",
       "DurationMin": "52.673187",
       "DurationMax": "52.673187",
@@ -837,7 +838,7 @@
     "Type": "Event",
     "GUID": "{154FAD4F-B779-4F14-8470-3861C7285557}",
     "Language": "SFX",
-    "Hash": "{2396C10D-CDB5-6B37-BF4F-0DBA3DAB6531}",
+    "Hash": "{1EA2774D-43EB-765B-C6AA-349CF7BB3161}",
     "ObjectPath": "Footsteps",
     "ShortName": "Footsteps",
     "Path": "Event/Footsteps.bnk",
@@ -1552,6 +1553,6 @@
     ]
    }
   ],
-  "FileHash": "{B3FBBCDC-CC08-AF0F-B352-8194F74A7117}"
+  "FileHash": "{0373FA5C-82FD-9C4A-C911-61D8DE616A49}"
  }
 }
