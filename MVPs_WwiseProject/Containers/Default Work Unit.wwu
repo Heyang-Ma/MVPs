@@ -1369,9 +1369,10 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Generator" ID="{A76CCEBE-A869-413A-95F9-196D11643DF9}" ShortID="402957958">
 					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-8</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1384,7 +1385,7 @@
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
 												<Curve Name="VolumeDry" ID="{A433F78F-41DF-4962-9221-799C23A6D502}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="3"/>
@@ -1412,7 +1413,7 @@
 											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
 										</VolumeWetUserUsage>
 										<LowPassFilterUsage>
-											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+											<CurveUsageInfo Platform="Linked" CurveToUse="None">
 												<Curve Name="LowPassFilter" ID="{4A35A48D-07A4-4830-8F08-42B8AEA7CC9F}">
 													<PropertyList>
 														<Property Name="Flags" Type="int32" Value="65537"/>
