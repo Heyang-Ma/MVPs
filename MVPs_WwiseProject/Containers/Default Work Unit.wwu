@@ -1994,6 +1994,21 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="wet collision" ID="{C91D3F7E-9B45-45EB-8C57-C964C7702179}" ShortID="847493457">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5D2446C5-207D-4B06-BE25-215D9ECD12BE}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="500"/>
+											<Property Name="Min" Type="Real64" Value="-500"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
@@ -2696,6 +2711,157 @@
 							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
 						</Reference>
 					</ReferenceList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="WallCollision" ID="{8DF7E548-C8FB-45F9-B6DC-3A43EF8F99FF}" ShortID="477539218">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="MetalCollide-01" ID="{45E922F4-DF1F-406A-BAAE-F45E4DCB9927}" ShortID="199189369">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalCollide-01" ID="{6DBFFABF-AFE1-479C-9486-11BDD2521AA2}">
+									<Language>SFX</Language>
+									<AudioFile>MetalCollide-01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="584365803"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalCollide-01" ID="{6DBFFABF-AFE1-479C-9486-11BDD2521AA2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalCollide-02" ID="{959137B3-5127-49F1-8059-8F04986A9C60}" ShortID="404606158">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalCollide-02" ID="{B11E7399-C6EE-444C-BEFF-55B7F384A9D0}">
+									<Language>SFX</Language>
+									<AudioFile>MetalCollide-02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="871848729"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalCollide-02" ID="{B11E7399-C6EE-444C-BEFF-55B7F384A9D0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalCollide-03" ID="{BD7D560F-A053-470B-A4E8-87CA5B0E6071}" ShortID="422509614">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalCollide-03" ID="{31785BD9-7524-4CB0-BC5A-E06E7898260B}">
+									<Language>SFX</Language>
+									<AudioFile>MetalCollide-03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="619146666"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalCollide-03" ID="{31785BD9-7524-4CB0-BC5A-E06E7898260B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalCollide-04" ID="{37FC0187-9EFA-4EA5-9C30-29B164D0A1B8}" ShortID="458835137">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalCollide-04" ID="{83D004BF-DB90-403E-8756-99B4C9788008}">
+									<Language>SFX</Language>
+									<AudioFile>MetalCollide-04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="350980487"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalCollide-04" ID="{83D004BF-DB90-403E-8756-99B4C9788008}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalCollide-05" ID="{CD68974D-E542-46E6-B75D-059593D70444}" ShortID="422647844">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalCollide-05" ID="{D6010594-D94C-4C96-9B5F-8EC868C5A96D}">
+									<Language>SFX</Language>
+									<AudioFile>MetalCollide-05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="325356824"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalCollide-05" ID="{D6010594-D94C-4C96-9B5F-8EC868C5A96D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MetalCollide-06" ID="{DA83BBCD-B57A-4E1E-AA7C-5AC7AC3247DF}" ShortID="197207866">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8DF041CC-3E69-4A21-9705-AB673D0FE01A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7ADFDF2D-D822-4A57-8A01-9EA46B66234F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MetalCollide-06" ID="{7323FB46-FDF9-4D06-B275-D87817D9238C}">
+									<Language>SFX</Language>
+									<AudioFile>MetalCollide-06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="359105754"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MetalCollide-06" ID="{7323FB46-FDF9-4D06-B275-D87817D9238C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

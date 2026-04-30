@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2B210520-D395-4A71-9E81-9A39A8430DC2}",
     "Language": "SFX",
-    "Hash": "{AF005D71-8859-F25D-8AB2-000CC83A4DE0}",
+    "Hash": "{2A89A08A-0449-D37D-0BA3-D2D79EC5F302}",
     "ObjectPath": "Collision",
     "ShortName": "Collision",
     "Path": "Event/Collision.bnk",
@@ -302,8 +302,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Collision",
       "GUID": "{2B210520-D395-4A71-9E81-9A39A8430DC2}",
       "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
+      "DurationMin": "1.4983071",
+      "DurationMax": "2.6696796",
       "MediaRefs": [
        {
         "Id": "39455169"
@@ -403,6 +403,6 @@
     ]
    }
   ],
-  "FileHash": "{D299FE40-58D5-EFD3-6E04-473E20C56B79}"
+  "FileHash": "{F8AB12FF-AAD0-B50F-F3B1-3834ADF4DF2B}"
  }
 }

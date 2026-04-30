@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{78F93668-9936-46B9-BC07-B12883FC50B3}",
     "Language": "SFX",
-    "Hash": "{4FC703BB-DA89-D1AB-9099-54579089565B}",
+    "Hash": "{D8D2E4C8-2190-CD4E-7560-73552812B84A}",
     "ObjectPath": "Alien_footstep",
     "ShortName": "Alien_footstep",
     "Path": "Event/Alien_footstep.bnk",
@@ -116,6 +116,6 @@
     ]
    }
   ],
-  "FileHash": "{7947BD6C-D595-EDE2-ED65-FD5DD2F5F9EE}"
+  "FileHash": "{2C698AE7-06FE-6DCC-18B1-EB79BDAFE9EF}"
  }
 }

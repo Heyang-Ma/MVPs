@@ -294,7 +294,7 @@
     "Type": "Event",
     "GUID": "{78F93668-9936-46B9-BC07-B12883FC50B3}",
     "Language": "SFX",
-    "Hash": "{4FC703BB-DA89-D1AB-9099-54579089565B}",
+    "Hash": "{D8D2E4C8-2190-CD4E-7560-73552812B84A}",
     "ObjectPath": "Alien_footstep",
     "ShortName": "Alien_footstep",
     "Path": "Event/Alien_footstep.bnk",
@@ -404,7 +404,7 @@
     "Type": "Event",
     "GUID": "{2B210520-D395-4A71-9E81-9A39A8430DC2}",
     "Language": "SFX",
-    "Hash": "{AF005D71-8859-F25D-8AB2-000CC83A4DE0}",
+    "Hash": "{2A89A08A-0449-D37D-0BA3-D2D79EC5F302}",
     "ObjectPath": "Collision",
     "ShortName": "Collision",
     "Path": "Event/Collision.bnk",
@@ -696,8 +696,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Collision",
       "GUID": "{2B210520-D395-4A71-9E81-9A39A8430DC2}",
       "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
+      "DurationMin": "1.4983071",
+      "DurationMax": "2.6696796",
       "MediaRefs": [
        {
         "Id": "39455169"
@@ -828,6 +828,103 @@
       "MediaRefs": [
        {
         "Id": "148952108"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2108779961",
+    "Type": "Event",
+    "GUID": "{607D4340-50EA-4F60-983F-940A07916D3A}",
+    "Language": "SFX",
+    "Hash": "{90D93BE9-C1DF-072E-EC54-0682213ACF06}",
+    "ObjectPath": "wall",
+    "ShortName": "wall",
+    "Path": "Event/wall.bnk",
+    "Media": [
+     {
+      "Id": "325356824",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MetalCollide-05.wav",
+      "Path": "Media/325356824.wem",
+      "CachePath": "97/{97065540-7805-53FA-0F14-059FD63254AC}.wem"
+     },
+     {
+      "Id": "350980487",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MetalCollide-04.wav",
+      "Path": "Media/350980487.wem",
+      "CachePath": "19/{19330252-1053-9B5A-EFB1-D4354BEECB34}.wem"
+     },
+     {
+      "Id": "359105754",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MetalCollide-06.wav",
+      "Path": "Media/359105754.wem",
+      "CachePath": "24/{240F1748-C6EC-97CA-884B-B511E32CCFC2}.wem"
+     },
+     {
+      "Id": "584365803",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MetalCollide-01.wav",
+      "Path": "Media/584365803.wem",
+      "CachePath": "13/{1309FEED-6C60-4645-20F0-65E5ED2D17B0}.wem"
+     },
+     {
+      "Id": "619146666",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MetalCollide-03.wav",
+      "Path": "Media/619146666.wem",
+      "CachePath": "D7/{D736B44B-72A7-2EA2-5F05-DA6BC7D684B7}.wem"
+     },
+     {
+      "Id": "871848729",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MetalCollide-02.wav",
+      "Path": "Media/871848729.wem",
+      "CachePath": "CB/{CB25B574-D5B4-537F-706F-7DBBBC1F3669}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2108779961",
+      "Name": "wall",
+      "ObjectPath": "\\Events\\Default Work Unit\\wall",
+      "GUID": "{607D4340-50EA-4F60-983F-940A07916D3A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.78433335",
+      "DurationMax": "0.95860416",
+      "MediaRefs": [
+       {
+        "Id": "325356824"
+       },
+       {
+        "Id": "350980487"
+       },
+       {
+        "Id": "359105754"
+       },
+       {
+        "Id": "584365803"
+       },
+       {
+        "Id": "619146666"
+       },
+       {
+        "Id": "871848729"
        }
       ]
      }
@@ -1553,6 +1650,6 @@
     ]
    }
   ],
-  "FileHash": "{D2485B0E-434C-E398-EA66-2C8E74634F69}"
+  "FileHash": "{60CC1917-9E70-C6D9-F4EC-AFB90489850F}"
  }
 }

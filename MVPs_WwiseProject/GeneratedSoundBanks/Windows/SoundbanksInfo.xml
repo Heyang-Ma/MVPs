@@ -139,7 +139,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1407184923" Type="Event" GUID="{78F93668-9936-46B9-BC07-B12883FC50B3}" Language="SFX" Hash="{4FC703BB-DA89-D1AB-9099-54579089565B}">
+		<SoundBank Id="1407184923" Type="Event" GUID="{78F93668-9936-46B9-BC07-B12883FC50B3}" Language="SFX" Hash="{D8D2E4C8-2190-CD4E-7560-73552812B84A}">
 			<ObjectPath>Alien_footstep</ObjectPath>
 			<ShortName>Alien_footstep</ShortName>
 			<Path>Event/Alien_footstep.bnk</Path>
@@ -194,7 +194,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1792046091" Type="Event" GUID="{2B210520-D395-4A71-9E81-9A39A8430DC2}" Language="SFX" Hash="{AF005D71-8859-F25D-8AB2-000CC83A4DE0}">
+		<SoundBank Id="1792046091" Type="Event" GUID="{2B210520-D395-4A71-9E81-9A39A8430DC2}" Language="SFX" Hash="{2A89A08A-0449-D37D-0BA3-D2D79EC5F302}">
 			<ObjectPath>Collision</ObjectPath>
 			<ShortName>Collision</ShortName>
 			<Path>Event/Collision.bnk</Path>
@@ -356,7 +356,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1792046091" Name="Collision" ObjectPath="\Events\Default Work Unit\Collision" GUID="{2B210520-D395-4A71-9E81-9A39A8430DC2}" DurationType="OneShot" DurationMin="2" DurationMax="2">
+				<Event Id="1792046091" Name="Collision" ObjectPath="\Events\Default Work Unit\Collision" GUID="{2B210520-D395-4A71-9E81-9A39A8430DC2}" DurationType="OneShot" DurationMin="1.4983071" DurationMax="2.6696796">
 					<MediaRefs>
 						<MediaRef Id="39455169"/>
 						<MediaRef Id="171856599"/>
@@ -408,6 +408,55 @@
 				<Event Id="1877847629" Name="Door" ObjectPath="\Events\Default Work Unit\Door" GUID="{2E4515A2-6992-47CB-9C30-28C4D4FB52E7}" DurationType="OneShot" DurationMin="142.4825" DurationMax="179.5167">
 					<MediaRefs>
 						<MediaRef Id="148952108"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2108779961" Type="Event" GUID="{607D4340-50EA-4F60-983F-940A07916D3A}" Language="SFX" Hash="{90D93BE9-C1DF-072E-EC54-0682213ACF06}">
+			<ObjectPath>wall</ObjectPath>
+			<ShortName>wall</ShortName>
+			<Path>Event/wall.bnk</Path>
+			<Media>
+				<File Id="325356824" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MetalCollide-05.wav</ShortName>
+					<Path>Media/325356824.wem</Path>
+					<CachePath>97/{97065540-7805-53FA-0F14-059FD63254AC}.wem</CachePath>
+				</File>
+				<File Id="350980487" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MetalCollide-04.wav</ShortName>
+					<Path>Media/350980487.wem</Path>
+					<CachePath>19/{19330252-1053-9B5A-EFB1-D4354BEECB34}.wem</CachePath>
+				</File>
+				<File Id="359105754" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MetalCollide-06.wav</ShortName>
+					<Path>Media/359105754.wem</Path>
+					<CachePath>24/{240F1748-C6EC-97CA-884B-B511E32CCFC2}.wem</CachePath>
+				</File>
+				<File Id="584365803" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MetalCollide-01.wav</ShortName>
+					<Path>Media/584365803.wem</Path>
+					<CachePath>13/{1309FEED-6C60-4645-20F0-65E5ED2D17B0}.wem</CachePath>
+				</File>
+				<File Id="619146666" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MetalCollide-03.wav</ShortName>
+					<Path>Media/619146666.wem</Path>
+					<CachePath>D7/{D736B44B-72A7-2EA2-5F05-DA6BC7D684B7}.wem</CachePath>
+				</File>
+				<File Id="871848729" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>MetalCollide-02.wav</ShortName>
+					<Path>Media/871848729.wem</Path>
+					<CachePath>CB/{CB25B574-D5B4-537F-706F-7DBBBC1F3669}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2108779961" Name="wall" ObjectPath="\Events\Default Work Unit\wall" GUID="{607D4340-50EA-4F60-983F-940A07916D3A}" DurationType="OneShot" DurationMin="0.78433335" DurationMax="0.95860416">
+					<MediaRefs>
+						<MediaRef Id="325356824"/>
+						<MediaRef Id="350980487"/>
+						<MediaRef Id="359105754"/>
+						<MediaRef Id="584365803"/>
+						<MediaRef Id="619146666"/>
+						<MediaRef Id="871848729"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -766,5 +815,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FEFD132E-ED68-D210-E918-243E2597C6D3}</FileHash>
+	<FileHash>{7C6440A6-A1B1-53E8-CA29-7FD08D85B476}</FileHash>
 </SoundBanksInfo>

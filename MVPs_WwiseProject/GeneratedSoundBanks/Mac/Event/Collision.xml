@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="1792046091" Type="Event" GUID="{2B210520-D395-4A71-9E81-9A39A8430DC2}" Language="SFX" Hash="{AF005D71-8859-F25D-8AB2-000CC83A4DE0}">
+		<SoundBank Id="1792046091" Type="Event" GUID="{2B210520-D395-4A71-9E81-9A39A8430DC2}" Language="SFX" Hash="{2A89A08A-0449-D37D-0BA3-D2D79EC5F302}">
 			<ObjectPath>Collision</ObjectPath>
 			<ShortName>Collision</ShortName>
 			<Path>Event/Collision.bnk</Path>
@@ -163,7 +163,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1792046091" Name="Collision" ObjectPath="\Events\Default Work Unit\Collision" GUID="{2B210520-D395-4A71-9E81-9A39A8430DC2}" DurationType="OneShot" DurationMin="2" DurationMax="2">
+				<Event Id="1792046091" Name="Collision" ObjectPath="\Events\Default Work Unit\Collision" GUID="{2B210520-D395-4A71-9E81-9A39A8430DC2}" DurationType="OneShot" DurationMin="1.4983071" DurationMax="2.6696796">
 					<MediaRefs>
 						<MediaRef Id="39455169"/>
 						<MediaRef Id="171856599"/>
@@ -201,5 +201,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1E26D489-FF08-2C71-F022-D3F58F33C809}</FileHash>
+	<FileHash>{A24F9AED-D14E-3E0B-AB33-EF50D0FDEAB8}</FileHash>
 </SoundBanksInfo>
