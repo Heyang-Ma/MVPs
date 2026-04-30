@@ -80,17 +80,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Alien_Foot" ID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}">
-					<ChildrenList>
-						<Action Name="" ID="{A568B953-E871-4838-9BAE-0DE29167D36A}" ShortID="647460324">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Alien" ID="{802CA812-E645-4A6B-AA04-7FC5A6B3D9BB}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Jukeboxes" ID="{FDB6B782-F323-457C-914C-FDFE9D7406B4}">
 					<ChildrenList>
 						<Action Name="" ID="{852FDF3B-11A2-467C-8E6C-9DBF4B3A9D0F}" ShortID="275274282">
@@ -119,6 +108,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="small doors" ID="{AC2EAB1D-9048-4398-A486-355A52309354}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Alien_footstep" ID="{78F93668-9936-46B9-BC07-B12883FC50B3}">
+					<ChildrenList>
+						<Action Name="" ID="{868F9DDC-8B53-44DE-801E-1FAAB2E81B18}" ShortID="17476599">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Alien" ID="{802CA812-E645-4A6B-AA04-7FC5A6B3D9BB}" WorkUnitID="{919E093A-8924-497B-ACE4-521AB924883A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

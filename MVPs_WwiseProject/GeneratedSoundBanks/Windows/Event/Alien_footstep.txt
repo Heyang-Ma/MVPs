@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1407184923	Alien_footstep			\Default Work Unit\Alien_footstep	
+

@@ -1539,6 +1539,7 @@
 				<RandomSequenceContainer Name="Alien" ID="{802CA812-E645-4A6B-AA04-7FC5A6B3D9BB}" ShortID="476108508">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="4"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>

@@ -290,6 +290,116 @@
     ]
    },
    {
+    "Id": "1407184923",
+    "Type": "Event",
+    "GUID": "{78F93668-9936-46B9-BC07-B12883FC50B3}",
+    "Language": "SFX",
+    "Hash": "{4FC703BB-DA89-D1AB-9099-54579089565B}",
+    "ObjectPath": "Alien_footstep",
+    "ShortName": "Alien_footstep",
+    "Path": "Event/Alien_footstep.bnk",
+    "Media": [
+     {
+      "Id": "23727193",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Alien foot-07.wav",
+      "Path": "Media/23727193.wem",
+      "CachePath": "33/{335406D7-1257-7830-2AE4-0684C321F56E}.wem"
+     },
+     {
+      "Id": "53148013",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Alien foot-03.wav",
+      "Path": "Media/53148013.wem",
+      "CachePath": "69/{69D193CF-7A70-88A7-400F-E23CF6D3F4C0}.wem"
+     },
+     {
+      "Id": "434044477",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Alien foot-06.wav",
+      "Path": "Media/434044477.wem",
+      "CachePath": "BB/{BB4A8F3A-17CC-7C99-81FD-FF3C55FBF05B}.wem"
+     },
+     {
+      "Id": "465565665",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Alien foot-02.wav",
+      "Path": "Media/465565665.wem",
+      "CachePath": "E7/{E7C76F8A-CF02-47B1-A9CA-2E9CB83F3305}.wem"
+     },
+     {
+      "Id": "727299687",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Alien foot-04.wav",
+      "Path": "Media/727299687.wem",
+      "CachePath": "A1/{A1ABA2B7-5CB7-B81A-D05C-341C6005B1E6}.wem"
+     },
+     {
+      "Id": "827672548",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Alien foot-05.wav",
+      "Path": "Media/827672548.wem",
+      "CachePath": "6A/{6AB67646-03ED-702A-9121-5CF4E064CE61}.wem"
+     },
+     {
+      "Id": "895639720",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Alien foot-01.wav",
+      "Path": "Media/895639720.wem",
+      "CachePath": "80/{80B14884-A29E-8AEC-3F84-5E6D7118C692}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1407184923",
+      "Name": "Alien_footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Alien_footstep",
+      "GUID": "{78F93668-9936-46B9-BC07-B12883FC50B3}",
+      "MaxAttenuation": "800",
+      "DurationType": "OneShot",
+      "DurationMin": "0.73307973",
+      "DurationMax": "0.92362255",
+      "MediaRefs": [
+       {
+        "Id": "23727193"
+       },
+       {
+        "Id": "53148013"
+       },
+       {
+        "Id": "434044477"
+       },
+       {
+        "Id": "465565665"
+       },
+       {
+        "Id": "727299687"
+       },
+       {
+        "Id": "827672548"
+       },
+       {
+        "Id": "895639720"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "1792046091",
     "Type": "Event",
     "GUID": "{2B210520-D395-4A71-9E81-9A39A8430DC2}",
@@ -718,116 +828,6 @@
       "MediaRefs": [
        {
         "Id": "148952108"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "Id": "2244307409",
-    "Type": "Event",
-    "GUID": "{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}",
-    "Language": "SFX",
-    "Hash": "{8BE66BE5-01FC-5A95-84BA-281558063D3B}",
-    "ObjectPath": "Alien_Foot",
-    "ShortName": "Alien_Foot",
-    "Path": "Event/Alien_Foot.bnk",
-    "Media": [
-     {
-      "Id": "23727193",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Alien foot-07.wav",
-      "Path": "Media/23727193.wem",
-      "CachePath": "33/{335406D7-1257-7830-2AE4-0684C321F56E}.wem"
-     },
-     {
-      "Id": "53148013",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Alien foot-03.wav",
-      "Path": "Media/53148013.wem",
-      "CachePath": "69/{69D193CF-7A70-88A7-400F-E23CF6D3F4C0}.wem"
-     },
-     {
-      "Id": "434044477",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Alien foot-06.wav",
-      "Path": "Media/434044477.wem",
-      "CachePath": "BB/{BB4A8F3A-17CC-7C99-81FD-FF3C55FBF05B}.wem"
-     },
-     {
-      "Id": "465565665",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Alien foot-02.wav",
-      "Path": "Media/465565665.wem",
-      "CachePath": "E7/{E7C76F8A-CF02-47B1-A9CA-2E9CB83F3305}.wem"
-     },
-     {
-      "Id": "727299687",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Alien foot-04.wav",
-      "Path": "Media/727299687.wem",
-      "CachePath": "A1/{A1ABA2B7-5CB7-B81A-D05C-341C6005B1E6}.wem"
-     },
-     {
-      "Id": "827672548",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Alien foot-05.wav",
-      "Path": "Media/827672548.wem",
-      "CachePath": "6A/{6AB67646-03ED-702A-9121-5CF4E064CE61}.wem"
-     },
-     {
-      "Id": "895639720",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Alien foot-01.wav",
-      "Path": "Media/895639720.wem",
-      "CachePath": "80/{80B14884-A29E-8AEC-3F84-5E6D7118C692}.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "2244307409",
-      "Name": "Alien_Foot",
-      "ObjectPath": "\\Events\\Default Work Unit\\Alien_Foot",
-      "GUID": "{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}",
-      "MaxAttenuation": "200",
-      "DurationType": "OneShot",
-      "DurationMin": "0.73307973",
-      "DurationMax": "0.92362255",
-      "MediaRefs": [
-       {
-        "Id": "23727193"
-       },
-       {
-        "Id": "53148013"
-       },
-       {
-        "Id": "434044477"
-       },
-       {
-        "Id": "465565665"
-       },
-       {
-        "Id": "727299687"
-       },
-       {
-        "Id": "827672548"
-       },
-       {
-        "Id": "895639720"
        }
       ]
      }
@@ -1553,6 +1553,6 @@
     ]
    }
   ],
-  "FileHash": "{0373FA5C-82FD-9C4A-C911-61D8DE616A49}"
+  "FileHash": "{280AC6E2-EA94-CAAE-F47A-FB247C148D0D}"
  }
 }

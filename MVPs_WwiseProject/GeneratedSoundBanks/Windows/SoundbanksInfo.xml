@@ -139,6 +139,61 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="1407184923" Type="Event" GUID="{78F93668-9936-46B9-BC07-B12883FC50B3}" Language="SFX" Hash="{4FC703BB-DA89-D1AB-9099-54579089565B}">
+			<ObjectPath>Alien_footstep</ObjectPath>
+			<ShortName>Alien_footstep</ShortName>
+			<Path>Event/Alien_footstep.bnk</Path>
+			<Media>
+				<File Id="23727193" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-07.wav</ShortName>
+					<Path>Media/23727193.wem</Path>
+					<CachePath>33/{335406D7-1257-7830-2AE4-0684C321F56E}.wem</CachePath>
+				</File>
+				<File Id="53148013" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-03.wav</ShortName>
+					<Path>Media/53148013.wem</Path>
+					<CachePath>69/{69D193CF-7A70-88A7-400F-E23CF6D3F4C0}.wem</CachePath>
+				</File>
+				<File Id="434044477" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-06.wav</ShortName>
+					<Path>Media/434044477.wem</Path>
+					<CachePath>BB/{BB4A8F3A-17CC-7C99-81FD-FF3C55FBF05B}.wem</CachePath>
+				</File>
+				<File Id="465565665" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-02.wav</ShortName>
+					<Path>Media/465565665.wem</Path>
+					<CachePath>E7/{E7C76F8A-CF02-47B1-A9CA-2E9CB83F3305}.wem</CachePath>
+				</File>
+				<File Id="727299687" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-04.wav</ShortName>
+					<Path>Media/727299687.wem</Path>
+					<CachePath>A1/{A1ABA2B7-5CB7-B81A-D05C-341C6005B1E6}.wem</CachePath>
+				</File>
+				<File Id="827672548" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-05.wav</ShortName>
+					<Path>Media/827672548.wem</Path>
+					<CachePath>6A/{6AB67646-03ED-702A-9121-5CF4E064CE61}.wem</CachePath>
+				</File>
+				<File Id="895639720" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Alien foot-01.wav</ShortName>
+					<Path>Media/895639720.wem</Path>
+					<CachePath>80/{80B14884-A29E-8AEC-3F84-5E6D7118C692}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1407184923" Name="Alien_footstep" ObjectPath="\Events\Default Work Unit\Alien_footstep" GUID="{78F93668-9936-46B9-BC07-B12883FC50B3}" MaxAttenuation="800" DurationType="OneShot" DurationMin="0.73307973" DurationMax="0.92362255">
+					<MediaRefs>
+						<MediaRef Id="23727193"/>
+						<MediaRef Id="53148013"/>
+						<MediaRef Id="434044477"/>
+						<MediaRef Id="465565665"/>
+						<MediaRef Id="727299687"/>
+						<MediaRef Id="827672548"/>
+						<MediaRef Id="895639720"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="1792046091" Type="Event" GUID="{2B210520-D395-4A71-9E81-9A39A8430DC2}" Language="SFX" Hash="{AF005D71-8859-F25D-8AB2-000CC83A4DE0}">
 			<ObjectPath>Collision</ObjectPath>
 			<ShortName>Collision</ShortName>
@@ -353,61 +408,6 @@
 				<Event Id="1877847629" Name="Door" ObjectPath="\Events\Default Work Unit\Door" GUID="{2E4515A2-6992-47CB-9C30-28C4D4FB52E7}" DurationType="OneShot" DurationMin="142.4825" DurationMax="179.5167">
 					<MediaRefs>
 						<MediaRef Id="148952108"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="2244307409" Type="Event" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" Language="SFX" Hash="{8BE66BE5-01FC-5A95-84BA-281558063D3B}">
-			<ObjectPath>Alien_Foot</ObjectPath>
-			<ShortName>Alien_Foot</ShortName>
-			<Path>Event/Alien_Foot.bnk</Path>
-			<Media>
-				<File Id="23727193" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Alien foot-07.wav</ShortName>
-					<Path>Media/23727193.wem</Path>
-					<CachePath>33/{335406D7-1257-7830-2AE4-0684C321F56E}.wem</CachePath>
-				</File>
-				<File Id="53148013" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Alien foot-03.wav</ShortName>
-					<Path>Media/53148013.wem</Path>
-					<CachePath>69/{69D193CF-7A70-88A7-400F-E23CF6D3F4C0}.wem</CachePath>
-				</File>
-				<File Id="434044477" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Alien foot-06.wav</ShortName>
-					<Path>Media/434044477.wem</Path>
-					<CachePath>BB/{BB4A8F3A-17CC-7C99-81FD-FF3C55FBF05B}.wem</CachePath>
-				</File>
-				<File Id="465565665" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Alien foot-02.wav</ShortName>
-					<Path>Media/465565665.wem</Path>
-					<CachePath>E7/{E7C76F8A-CF02-47B1-A9CA-2E9CB83F3305}.wem</CachePath>
-				</File>
-				<File Id="727299687" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Alien foot-04.wav</ShortName>
-					<Path>Media/727299687.wem</Path>
-					<CachePath>A1/{A1ABA2B7-5CB7-B81A-D05C-341C6005B1E6}.wem</CachePath>
-				</File>
-				<File Id="827672548" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Alien foot-05.wav</ShortName>
-					<Path>Media/827672548.wem</Path>
-					<CachePath>6A/{6AB67646-03ED-702A-9121-5CF4E064CE61}.wem</CachePath>
-				</File>
-				<File Id="895639720" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>Alien foot-01.wav</ShortName>
-					<Path>Media/895639720.wem</Path>
-					<CachePath>80/{80B14884-A29E-8AEC-3F84-5E6D7118C692}.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2244307409" Name="Alien_Foot" ObjectPath="\Events\Default Work Unit\Alien_Foot" GUID="{41FAF0AC-5929-4982-A32B-EE4C47FDB9B4}" MaxAttenuation="200" DurationType="OneShot" DurationMin="0.73307973" DurationMax="0.92362255">
-					<MediaRefs>
-						<MediaRef Id="23727193"/>
-						<MediaRef Id="53148013"/>
-						<MediaRef Id="434044477"/>
-						<MediaRef Id="465565665"/>
-						<MediaRef Id="727299687"/>
-						<MediaRef Id="827672548"/>
-						<MediaRef Id="895639720"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -766,5 +766,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{783E49D4-B88B-298E-31AC-258E10489F1D}</FileHash>
+	<FileHash>{FEFD132E-ED68-D210-E918-243E2597C6D3}</FileHash>
 </SoundBanksInfo>
