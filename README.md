@@ -18,6 +18,24 @@ Heyang Ma		-	Lead Programmer
 ## Engine Version
 Unreal Engine 5.6.1
 
+## How to Open the Project    
+
+1. Clone or download this repository (default branch is `audio`)  
+2. Open `MVPs.uproject` with Unreal Engine 5.6.1  
+3. Press Play
+4. If there is Wwise issue, please modify the Wwise version of this project.  
+
+## How to Play  
+
+- WASD: Move  
+- Mouse: Look  
+- Left Mouse: Fire taser  
+- E: Interact  
+- C: Crouch  
+- Q: Switch shoulder
+- R: Switch backward sight
+- ESC: Pause menu
+
 
 ## Academic Integrity Notice
 
